@@ -14,6 +14,9 @@ import net.minecraft.util.Identifier;
 
 public class Cobblestone {
 
+    public static final Block FLAGSTONE = registerBlock("flagstone", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block SANDY_STONE_SLAB = registerBlock("sandy_stone_slab", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+
     public static final Block COBBLESTONE_FENCE = registerBlock("cobblestone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block COBBLESTONE_HOPPER = registerBlock("cobblestone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block COBBLESTONE_TIP = registerBlock("cobblestone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
