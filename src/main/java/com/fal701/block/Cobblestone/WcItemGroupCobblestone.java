@@ -80,6 +80,13 @@ public class WcItemGroupCobblestone {
                 entries.add(Cobblestone.NORTHERN_COBBLESTONE_FENCE);
                 entries.add(Cobblestone.NORTHERN_COBBLESTONE_HOPPER);
                 entries.add(Cobblestone.NORTHERN_COBBLESTONE_TIP); //8
+                entries.add(Cobblestone.NORTHERN_COBBLE);
+                entries.add(Cobblestone.NORTHERN_COBBLE_STAIRS);
+                entries.add(Cobblestone.NORTHERN_COBBLE_SLAB);
+                entries.add(Cobblestone.NORTHERN_COBBLE_WALL);
+                entries.add(Cobblestone.NORTHERN_COBBLE_FENCE);
+                entries.add(Cobblestone.NORTHERN_COBBLE_HOPPER);
+                entries.add(Cobblestone.NORTHERN_COBBLE_TIP); //8.1
                 entries.add(Cobblestone.BROWN_GREY_COBBLESTONE);
                 entries.add(Cobblestone.BROWN_GREY_COBBLESTONE_STAIRS);
                 entries.add(Cobblestone.BROWN_GREY_COBBLESTONE_SLAB);
