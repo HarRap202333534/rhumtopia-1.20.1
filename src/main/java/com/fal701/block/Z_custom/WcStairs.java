@@ -1,4 +1,4 @@
-package com.fal701.block.custom;
+package com.fal701.block.Z_custom;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.StairsBlock;

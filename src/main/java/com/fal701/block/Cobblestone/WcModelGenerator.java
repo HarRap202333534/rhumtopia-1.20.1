@@ -1,6 +1,5 @@
-package com.fal701.data;
+package com.fal701.block.Cobblestone;
 
-import com.fal701.block.Cobblestone;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
@@ -62,6 +61,16 @@ public class WcModelGenerator extends FabricModelProvider {
         bGreydCPool.slab(Cobblestone.BROWN_GREY_DARK_COBBLESTONE_SLAB);
         bGreydCPool.wall(Cobblestone.BROWN_GREY_DARK_COBBLESTONE_WALL);
         bGreydCPool.wall(Cobblestone.BROWN_GREY_DARK_COBBLESTONE_FENCE);//10
+        BlockStateModelGenerator.BlockTexturePool bGreyCPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Cobblestone.BROWN_GREY_COBBLESTONE);
+        bGreyCPool.stairs(Cobblestone.BROWN_GREY_COBBLESTONE_STAIRS);
+        bGreyCPool.slab(Cobblestone.BROWN_GREY_COBBLESTONE_SLAB);
+        bGreyCPool.wall(Cobblestone.BROWN_GREY_COBBLESTONE_WALL);
+        bGreyCPool.wall(Cobblestone.BROWN_GREY_COBBLESTONE_FENCE);//11
+        BlockStateModelGenerator.BlockTexturePool bGreyCPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Cobblestone.BROWN_GREY_COBBLESTONE);
+        bGreyCPool.stairs(Cobblestone.BROWN_GREY_COBBLESTONE_STAIRS);
+        bGreyCPool.slab(Cobblestone.BROWN_GREY_COBBLESTONE_SLAB);
+        bGreyCPool.wall(Cobblestone.BROWN_GREY_COBBLESTONE_WALL);
+        bGreyCPool.wall(Cobblestone.BROWN_GREY_COBBLESTONE_FENCE);//12
 
 
 

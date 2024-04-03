@@ -1,4 +1,4 @@
-package com.fal701.block.custom;
+package com.fal701.block.Z_custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -12,15 +12,15 @@ import net.minecraft.world.BlockView;
 
 import java.util.stream.Stream;
 
-public class WcHopper extends HorizontalFacingBlock {
-    public WcHopper(Settings settings) {
+public class WcHopperU extends HorizontalFacingBlock {
+    public WcHopperU(Settings settings) {
         super(settings);
     }
 
     private static final VoxelShape HOPPERWC = Stream.of(
-            Block.createCuboidShape(6, 0, 6, 10, 6, 10),
-            Block.createCuboidShape(4, 4.5, 4, 12, 10.5, 12),
-            Block.createCuboidShape(0, 10, 0, 16, 16, 16)
+            Block.createCuboidShape(6, 10, 6, 10, 16, 10),
+            Block.createCuboidShape(4, 4, 4, 12, 10, 12),
+            Block.createCuboidShape(0, 0, 0, 16, 4.5, 16)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
 
     @Override

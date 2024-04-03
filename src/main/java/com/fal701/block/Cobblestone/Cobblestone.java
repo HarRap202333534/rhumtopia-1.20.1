@@ -1,8 +1,8 @@
-package com.fal701.block;
+package com.fal701.block.Cobblestone;
 
-import com.fal701.block.custom.WcHopper;
-import com.fal701.block.custom.WcHopperU;
-import com.fal701.block.custom.WcStairs;
+import com.fal701.block.Z_custom.WcHopper;
+import com.fal701.block.Z_custom.WcHopperU;
+import com.fal701.block.Z_custom.WcStairs;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -80,6 +80,14 @@ public class Cobblestone {
     public static final Block NORTHERN_COBBLESTONE_FENCE = registerBlock("northern_cobblestone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block NORTHERN_COBBLESTONE_HOPPER = registerBlock("northern_cobblestone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block NORTHERN_COBBLESTONE_TIP = registerBlock("northern_cobblestone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+
+    public static final Block NORTHERN_COBBLE = registerBlock("northern_cobble", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block NORTHERN_COBBLE_STAIRS = registerBlock("northern_cobblestone_stairs", new WcStairs(Cobblestone.NORTHERN_COBBLE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block NORTHERN_COBBLE_SLAB = registerBlock("northern_cobblestone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block NORTHERN_COBBLE_WALL = registerBlock("northern_cobblestone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block NORTHERN_COBBLE_FENCE = registerBlock("northern_cobblestone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block NORTHERN_COBBLE_HOPPER = registerBlock("northern_cobblestone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block NORTHERN_COBBLE_TIP = registerBlock("northern_cobblestone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
 
     public static final Block BROWN_GREY_COBBLESTONE = registerBlock("brown_grey_cobblestone", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_COBBLESTONE_STAIRS = registerBlock("brown_grey_cobblestone_stairs", new WcStairs(Cobblestone.BROWN_GREY_COBBLESTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));

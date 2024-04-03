@@ -1,9 +1,9 @@
-package com.fal701.block;
+package com.fal701.block.SmoothAshlar;
 
-import com.fal701.block.custom.WcArrowSlit;
-import com.fal701.block.custom.WcHopper;
-import com.fal701.block.custom.WcHopperU;
-import com.fal701.block.custom.WcStairs;
+import com.fal701.block.Z_custom.WcArrowSlit;
+import com.fal701.block.Z_custom.WcHopper;
+import com.fal701.block.Z_custom.WcHopperU;
+import com.fal701.block.Z_custom.WcStairs;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;

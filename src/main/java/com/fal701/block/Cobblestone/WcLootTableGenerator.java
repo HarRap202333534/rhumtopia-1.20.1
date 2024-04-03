@@ -1,4 +1,4 @@
-package com.fal701.data;
+package com.fal701.block.Cobblestone;
 
 public class WcLootTableGenerator {
 }
