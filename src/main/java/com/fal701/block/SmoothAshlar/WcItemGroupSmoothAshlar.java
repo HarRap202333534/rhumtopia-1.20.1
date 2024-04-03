@@ -1,15 +1,19 @@
 package com.fal701.block.SmoothAshlar;
 
+import com.fal701.Rhumtopia;
 import com.fal701.block.Fieldstone.Fieldstone;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
 
 public class WcItemGroupSmoothAshlar {
     public static final ItemGroup SMOOTH_ASHLAR = FabricItemGroup.builder()
             .icon(() -> new ItemStack(SmoothAshlar.GREY_LIGHT_STONE))
-            .displayName(Text.translatable("itemGroup.wcrhum.smooth_ashlar"))
+            .displayName(Text.translatable("itemGroup.westerosblocks.smooth_ashlar"))
             .entries((context, entries) -> {
                 entries.add(SmoothAshlar.BLACK_LIGHT_STONE);
                 entries.add(SmoothAshlar.BLACK_LIGHT_STONE_STAIRS);
@@ -152,4 +156,12 @@ public class WcItemGroupSmoothAshlar {
                 entries.add(SmoothAshlar.TERRACOTTA_LIGHT_STONE_ARROW_SLIT_WINDOW);
                 entries.add(SmoothAshlar.TERRACOTTA_LIGHT_STONE_ARROW_SLIT_ORNATE);
             }).build();
+
+    public static void registerItemGroups() {
+        Registry.register(Registries.ITEM_GROUP, new Identifier(Rhumtopia.MOD_ID, "smooth_ashlar"), SMOOTH_ASHLAR);
+    }
 }
+
+
+
+

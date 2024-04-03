@@ -1,5 +1,6 @@
 package com.fal701.block.Cobblestone;
 
+import com.fal701.Rhumtopia;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
@@ -13,10 +14,10 @@ import net.minecraft.util.Identifier;
 public class WcItemGroupCobblestone {
     public static final ItemGroup COBBLESTONE = FabricItemGroup.builder()
             .icon(() -> new ItemStack(Items.COBBLESTONE))
-            .displayName(Text.translatable("itemGroup.wcrhum.cobblestone"))
+            .displayName(Text.translatable("itemGroup.westerosblocks.cobblestone"))
             .entries((context, entries) -> {
                 entries.add(Cobblestone.FLAGSTONE);
-                entries.add(Cobblestone.SANDY_STONE_SLAB);
+                entries.add(Cobblestone.SANDY_STONE_SLABS);
                 entries.add(Blocks.COBBLESTONE);
                 entries.add(Blocks.COBBLESTONE_STAIRS);
                 entries.add(Blocks.COBBLESTONE_SLAB);
@@ -66,27 +67,20 @@ public class WcItemGroupCobblestone {
                 entries.add(Cobblestone.DARK_GREY_DARK_COBBLESTONE_FENCE);
                 entries.add(Cobblestone.DARK_GREY_DARK_COBBLESTONE_HOPPER);
                 entries.add(Cobblestone.DARK_GREY_DARK_COBBLESTONE_TIP); //6
-                entries.add(Cobblestone.ICY_NORTHERN_COBBLESTONE);
-                entries.add(Cobblestone.ICY_NORTHERN_COBBLESTONE_STAIRS);
-                entries.add(Cobblestone.ICY_NORTHERN_COBBLESTONE_SLAB);
-                entries.add(Cobblestone.ICY_NORTHERN_COBBLESTONE_WALL);
-                entries.add(Cobblestone.ICY_NORTHERN_COBBLESTONE_FENCE);
-                entries.add(Cobblestone.ICY_NORTHERN_COBBLESTONE_HOPPER);
-                entries.add(Cobblestone.ICY_NORTHERN_COBBLESTONE_TIP); //7
-                entries.add(Cobblestone.NORTHERN_COBBLESTONE);
-                entries.add(Cobblestone.NORTHERN_COBBLESTONE_STAIRS);
-                entries.add(Cobblestone.NORTHERN_COBBLESTONE_SLAB);
-                entries.add(Cobblestone.NORTHERN_COBBLESTONE_WALL);
-                entries.add(Cobblestone.NORTHERN_COBBLESTONE_FENCE);
-                entries.add(Cobblestone.NORTHERN_COBBLESTONE_HOPPER);
-                entries.add(Cobblestone.NORTHERN_COBBLESTONE_TIP); //8
+                entries.add(Cobblestone.ICY_NORTHERN_COBBLE);
+                entries.add(Cobblestone.ICY_NORTHERN_COBBLE_STAIRS);
+                entries.add(Cobblestone.ICY_NORTHERN_COBBLE_SLAB);
+                entries.add(Cobblestone.ICY_NORTHERN_COBBLE_WALL);
+                entries.add(Cobblestone.ICY_NORTHERN_COBBLE_FENCE);
+                entries.add(Cobblestone.ICY_NORTHERN_COBBLE_HOPPER);
+                entries.add(Cobblestone.ICY_NORTHERN_COBBLE_TIP); //7
                 entries.add(Cobblestone.NORTHERN_COBBLE);
                 entries.add(Cobblestone.NORTHERN_COBBLE_STAIRS);
                 entries.add(Cobblestone.NORTHERN_COBBLE_SLAB);
                 entries.add(Cobblestone.NORTHERN_COBBLE_WALL);
                 entries.add(Cobblestone.NORTHERN_COBBLE_FENCE);
                 entries.add(Cobblestone.NORTHERN_COBBLE_HOPPER);
-                entries.add(Cobblestone.NORTHERN_COBBLE_TIP); //8.1
+                entries.add(Cobblestone.NORTHERN_COBBLE_TIP); //8
                 entries.add(Cobblestone.BROWN_GREY_COBBLESTONE);
                 entries.add(Cobblestone.BROWN_GREY_COBBLESTONE_STAIRS);
                 entries.add(Cobblestone.BROWN_GREY_COBBLESTONE_SLAB);
@@ -293,6 +287,6 @@ public class WcItemGroupCobblestone {
             }).build();
 
     public static void registerItemGroups() {
-        Registry.register(Registries.ITEM_GROUP, new Identifier("wcdom", "bricks"), COBBLESTONE);
+        Registry.register(Registries.ITEM_GROUP, new Identifier(Rhumtopia.MOD_ID, "cobblestone"), COBBLESTONE);
     }
 }

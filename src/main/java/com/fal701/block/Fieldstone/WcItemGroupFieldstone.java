@@ -1,5 +1,6 @@
 package com.fal701.block.Fieldstone;
 
+import com.fal701.Rhumtopia;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -12,7 +13,7 @@ public class WcItemGroupFieldstone {
 
     public static final ItemGroup FIELDSTONE = FabricItemGroup.builder()
             .icon(() -> new ItemStack(Fieldstone.WHITE_LIGHT_BRICK))
-            .displayName(Text.translatable("itemGrouo.wcrhum.fieldstone"))
+            .displayName(Text.translatable("itemGroup.westerosblocks.fieldstone"))
             .entries((context, entries) -> {
                 entries.add(Fieldstone.FAINT_BROWN_GREY_BRICK);
                 entries.add(Fieldstone.FAINT_BROWN_GREY_BRICK_STAIRS);
@@ -158,7 +159,7 @@ public class WcItemGroupFieldstone {
             }).build();
 
     public static void registerItemGroups() {
-        Registry.register(Registries.ITEM_GROUP, new Identifier("wcdom", "bricks"), FIELDSTONE);
+        Registry.register(Registries.ITEM_GROUP, new Identifier(Rhumtopia.MOD_ID, "fieldstone"), FIELDSTONE);
     }
 }
 

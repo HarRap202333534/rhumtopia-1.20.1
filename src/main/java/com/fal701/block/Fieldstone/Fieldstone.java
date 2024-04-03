@@ -1,5 +1,6 @@
 package com.fal701.block.Fieldstone;
 
+import com.fal701.Rhumtopia;
 import com.fal701.block.Z_custom.WcArrowSlit;
 import com.fal701.block.Z_custom.WcHopper;
 import com.fal701.block.Z_custom.WcHopperU;
@@ -157,24 +158,24 @@ public class Fieldstone {
     public static final Block ARBOR_SMALL_BRICK_ARROW_SLIT_WINDOW = registerBlock("arbor_small_brick_arrow_slit_window", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_SMALL_BRICK_ARROW_SLIT_ORNATE = registerBlock("arbor_small_brick_arrow_slit_ornate", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
 
-    public static final Block LANNISPORT_LIGHT_BRICK = registerBlock("arbor_small_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_BRICK_STAIRS = registerBlock("arbor_small_brick_stairs", new WcStairs(Fieldstone.LANNISPORT_LIGHT_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_BRICK_SLAB = registerBlock("arbor_small_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_BRICK_WALL = registerBlock("arbor_small_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_BRICK_FENCE = registerBlock("arbor_small_brick_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_BRICK_HOPPER = registerBlock("arbor_small_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_BRICK_TIP = registerBlock("arbor_small_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_BRICK_ARROW_SLIT = registerBlock("arbor_small_brick_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_BRICK_ARROW_SLIT_WINDOW = registerBlock("arbor_small_brick_arrow_slit_window", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_BRICK_ARROW_SLIT_ORNATE = registerBlock("arbor_small_brick_arrow_slit_ornate", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK = registerBlock("lannisport_light_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK_STAIRS = registerBlock("lannisport_light_brick_stairs", new WcStairs(Fieldstone.LANNISPORT_LIGHT_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK_SLAB = registerBlock("lannisport_light_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK_WALL = registerBlock("lannisport_light_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK_FENCE = registerBlock("lannisport_light_brick_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK_HOPPER = registerBlock("lannisport_light_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK_TIP = registerBlock("lannisport_light_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK_ARROW_SLIT = registerBlock("lannisport_light_brick_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK_ARROW_SLIT_WINDOW = registerBlock("lannisport_light_brick_arrow_slit_window", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK_ARROW_SLIT_ORNATE = registerBlock("lannisport_light_brick_arrow_slit_ornate", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier("wcrhum", name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(Rhumtopia.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registries.ITEM, new Identifier("wcrhum", name),
+        return Registry.register(Registries.ITEM, new Identifier(Rhumtopia.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
 

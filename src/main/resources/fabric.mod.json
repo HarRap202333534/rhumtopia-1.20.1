@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "wcrhum",
+	"id": "westerosblocks",
 	"version": "${version}",
 	"name": "Rhumtopia",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,7 +12,6 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/wcrhum/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
