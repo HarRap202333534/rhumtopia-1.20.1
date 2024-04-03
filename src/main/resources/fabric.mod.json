@@ -18,6 +18,9 @@
 		"main": [
 			"com.fal701.Rhumtopia"
 		],
+		"client": [
+			"com.fal701.RhumtopiaClient"
+		],
 		"fabric-datagen": [
 			"com.fal701.RhumtopiaDataGenerator"
 		]
