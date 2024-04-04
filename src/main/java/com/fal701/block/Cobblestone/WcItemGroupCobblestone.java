@@ -256,27 +256,27 @@ public class WcItemGroupCobblestone {
                 entries.add(Cobblestone.LANNISPORT_DARK_COBBLESTONE_FENCE);
                 entries.add(Cobblestone.LANNISPORT_DARK_COBBLESTONE_HOPPER);
                 entries.add(Cobblestone.LANNISPORT_DARK_COBBLESTONE_TIP); //33
-                entries.add(Cobblestone.STORMLAND_COBBLESTONE);
-                entries.add(Cobblestone.STORMLAND_COBBLESTONE_STAIRS);
-                entries.add(Cobblestone.STORMLAND_COBBLESTONE_SLAB);
-                entries.add(Cobblestone.STORMLAND_COBBLESTONE_WALL);
-                entries.add(Cobblestone.STORMLAND_COBBLESTONE_FENCE);
-                entries.add(Cobblestone.STORMLAND_COBBLESTONE_HOPPER);
-                entries.add(Cobblestone.STORMLAND_COBBLESTONE_TIP); //34
-                entries.add(Cobblestone.STORMLAND_DARK_COBBLESTONE);
-                entries.add(Cobblestone.STORMLAND_DARK_COBBLESTONE_STAIRS);
-                entries.add(Cobblestone.STORMLAND_DARK_COBBLESTONE_SLAB);
-                entries.add(Cobblestone.STORMLAND_DARK_COBBLESTONE_WALL);
-                entries.add(Cobblestone.STORMLAND_DARK_COBBLESTONE_FENCE);
-                entries.add(Cobblestone.STORMLAND_DARK_COBBLESTONE_HOPPER);
-                entries.add(Cobblestone.STORMLAND_DARK_COBBLESTONE_TIP); //35
-                entries.add(Cobblestone.STORMLAND_MOSSY_COBBLESTONE);
-                entries.add(Cobblestone.STORMLAND_MOSSY_COBBLESTONE_STAIRS);
-                entries.add(Cobblestone.STORMLAND_MOSSY_COBBLESTONE_SLAB);
-                entries.add(Cobblestone.STORMLAND_MOSSY_COBBLESTONE_WALL);
-                entries.add(Cobblestone.STORMLAND_MOSSY_COBBLESTONE_FENCE);
-                entries.add(Cobblestone.STORMLAND_MOSSY_COBBLESTONE_HOPPER);
-                entries.add(Cobblestone.STORMLAND_MOSSY_COBBLESTONE_TIP); //36
+                entries.add(Cobblestone.STORMLANDS_COBBLESTONE);
+                entries.add(Cobblestone.STORMLANDS_COBBLESTONE_STAIRS);
+                entries.add(Cobblestone.STORMLANDS_COBBLESTONE_SLAB);
+                entries.add(Cobblestone.STORMLANDS_COBBLESTONE_WALL);
+                entries.add(Cobblestone.STORMLANDS_COBBLESTONE_FENCE);
+                entries.add(Cobblestone.STORMLANDS_COBBLESTONE_HOPPER);
+                entries.add(Cobblestone.STORMLANDS_COBBLESTONE_TIP); //34
+                entries.add(Cobblestone.STORMLANDS_DARK_COBBLESTONE);
+                entries.add(Cobblestone.STORMLANDS_DARK_COBBLESTONE_STAIRS);
+                entries.add(Cobblestone.STORMLANDS_DARK_COBBLESTONE_SLAB);
+                entries.add(Cobblestone.STORMLANDS_DARK_COBBLESTONE_WALL);
+                entries.add(Cobblestone.STORMLANDS_DARK_COBBLESTONE_FENCE);
+                entries.add(Cobblestone.STORMLANDS_DARK_COBBLESTONE_HOPPER);
+                entries.add(Cobblestone.STORMLANDS_DARK_COBBLESTONE_TIP); //35
+                entries.add(Cobblestone.STORMLANDS_MOSSY_COBBLESTONE);
+                entries.add(Cobblestone.STORMLANDS_MOSSY_COBBLESTONE_STAIRS);
+                entries.add(Cobblestone.STORMLANDS_MOSSY_COBBLESTONE_SLAB);
+                entries.add(Cobblestone.STORMLANDS_MOSSY_COBBLESTONE_WALL);
+                entries.add(Cobblestone.STORMLANDS_MOSSY_COBBLESTONE_FENCE);
+                entries.add(Cobblestone.STORMLANDS_MOSSY_COBBLESTONE_HOPPER);
+                entries.add(Cobblestone.STORMLANDS_MOSSY_COBBLESTONE_TIP); //36
                 entries.add(Cobblestone.TERRACOTTA_COBBLESTONE);
                 entries.add(Cobblestone.TERRACOTTA_COBBLESTONE_STAIRS);
                 entries.add(Cobblestone.TERRACOTTA_COBBLESTONE_SLAB);
