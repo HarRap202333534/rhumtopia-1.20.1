@@ -201,9 +201,9 @@ public class MediumAshlar {
     public static final Block MONOCHROME_DARK_SANDSTONE_ARROW_SLIT_WINDOW = registerBlock("monochrome_dark_sandstone_arrow_slit_window", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block MONOCHROME_DARK_SANDSTONE_ARROW_SLIT_ORNATE = registerBlock("monochrome_dark_sandstone_arrow_slit_ornate", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DESERT_SANDSTONE = registerBlock("desert_sandstone", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block DESERT_SANDSTONE_STAIRS = registerBlock("desert_sandstone_stairs", new WcStairs(DESERT_SANDSTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block DESERT_SANDSTONE_STAIRS = registerBlock("sandstone_stairs", new WcStairs(DESERT_SANDSTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DESERT_SANDSTONE_SLAB = registerBlock("desert_sandstone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block DESERT_SANDSTONE_WALL = registerBlock("desert_sandstone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block DESERT_SANDSTONE_WALL = registerBlock("desert_sandstone_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DESERT_SANDSTONE_FENCE = registerBlock("desert_sandstone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DESERT_SANDSTONE_HOPPER = registerBlock("desert_sandstone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DESERT_SANDSTONE_TIP = registerBlock("desert_sandstone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
