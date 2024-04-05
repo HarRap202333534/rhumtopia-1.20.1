@@ -4,6 +4,7 @@ import com.fal701.block.Cobblestone.Cobblestone;
 import com.fal701.block.Cobblestone.WcItemGroupCobblestone;
 import com.fal701.block.Fieldstone.Fieldstone;
 import com.fal701.block.Fieldstone.WcItemGroupFieldstone;
+import com.fal701.block.HalfAshlar.WcItemGroupHalfAshlar;
 import com.fal701.block.MediumAshlar.MediumAshlar;
 import com.fal701.block.MediumAshlar.WcItemGroupMediumAshlar;
 import com.fal701.block.QuarterAshlar.QuarterAshlar;
@@ -34,6 +35,7 @@ public class Rhumtopia implements ModInitializer {
 		WcItemGroupSmoothAshlar.registerItemGroups();
 		WcItemGroupQuarterAshlar.registerItemGroups();
 		WcItemGroupMediumAshlar.registerItemGroups();
+		WcItemGroupHalfAshlar.registerItemGroups();
 	}
 
 }
