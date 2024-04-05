@@ -4,6 +4,8 @@ import com.fal701.block.Cobblestone.Cobblestone;
 import com.fal701.block.Cobblestone.WcItemGroupCobblestone;
 import com.fal701.block.Fieldstone.Fieldstone;
 import com.fal701.block.Fieldstone.WcItemGroupFieldstone;
+import com.fal701.block.QuarterAshlar.QuarterAshlar;
+import com.fal701.block.QuarterAshlar.WcItemGroupQuarterAshlar;
 import com.fal701.block.SmoothAshlar.SmoothAshlar;
 import com.fal701.block.SmoothAshlar.WcItemGroupSmoothAshlar;
 import net.fabricmc.api.ModInitializer;
@@ -22,10 +24,12 @@ public class Rhumtopia implements ModInitializer {
 		Cobblestone.registerModBlocks();
 		Fieldstone.registerModBlocks();
 		SmoothAshlar.registerModBlocks();
+		QuarterAshlar.registerModBlocks();
 
 		WcItemGroupCobblestone.registerItemGroups();
 		WcItemGroupFieldstone.registerItemGroups();
 		WcItemGroupSmoothAshlar.registerItemGroups();
+		WcItemGroupQuarterAshlar.registerItemGroups();
 	}
 
 }
