@@ -1,9 +1,12 @@
 package com.fal701;
 
+import com.fal701.block.Brick.Brick;
+import com.fal701.block.Brick.WcItemGroupBrick;
 import com.fal701.block.Cobblestone.Cobblestone;
 import com.fal701.block.Cobblestone.WcItemGroupCobblestone;
 import com.fal701.block.Fieldstone.Fieldstone;
 import com.fal701.block.Fieldstone.WcItemGroupFieldstone;
+import com.fal701.block.HalfAshlar.HalfAshlar;
 import com.fal701.block.HalfAshlar.WcItemGroupHalfAshlar;
 import com.fal701.block.MediumAshlar.MediumAshlar;
 import com.fal701.block.MediumAshlar.WcItemGroupMediumAshlar;
@@ -29,6 +32,8 @@ public class Rhumtopia implements ModInitializer {
 		SmoothAshlar.registerModBlocks();
 		QuarterAshlar.registerModBlocks();
 		MediumAshlar.registerModBlocks();
+		HalfAshlar.registerModBlocks();
+		Brick.registerModBlocks();
 
 		WcItemGroupCobblestone.registerItemGroups();
 		WcItemGroupFieldstone.registerItemGroups();
@@ -36,6 +41,7 @@ public class Rhumtopia implements ModInitializer {
 		WcItemGroupQuarterAshlar.registerItemGroups();
 		WcItemGroupMediumAshlar.registerItemGroups();
 		WcItemGroupHalfAshlar.registerItemGroups();
+		WcItemGroupBrick.registerItemGroups();
 	}
 
 }

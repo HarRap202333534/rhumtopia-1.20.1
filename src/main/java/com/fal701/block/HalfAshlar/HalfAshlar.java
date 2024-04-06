@@ -16,7 +16,7 @@ import net.minecraft.util.Identifier;
 
 public class HalfAshlar {
 
-    public static final Block SIDED_STONE_SLAB = registerBlock("sided_stone_slab", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block SIDED_STONE_SLAB = registerBlock("6sided_stone_slab", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block NETHER_BRICK = registerBlock("nether_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block NETHER_BRICK_STAIRS = registerBlock("nether_brick_stairs", new WcStairs(NETHER_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block NETHER_BRICK_SLAB = registerBlock("nether_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));

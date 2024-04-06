@@ -127,15 +127,6 @@ public class WcItemGroupHalfAshlar {
                 entries.add(HalfAshlar.KL_DUN_LARGE_BRICK_ARROW_SLIT);
                 entries.add(HalfAshlar.KL_DUN_LARGE_BRICK_ARROW_SLIT_WINDOW);
                 entries.add(HalfAshlar.KL_DUN_LARGE_BRICK_ARROW_SLIT_ORNATE);
-                entries.add(HalfAshlar.SANDY_PINK_LARGE_BRICK_STAIRS);
-                entries.add(HalfAshlar.SANDY_PINK_LARGE_BRICK_SLAB);
-                entries.add(HalfAshlar.SANDY_PINK_LARGE_BRICK_WALL);
-                entries.add(HalfAshlar.SANDY_PINK_LARGE_BRICK_FENCE);
-                entries.add(HalfAshlar.SANDY_PINK_LARGE_BRICK_HOPPER);
-                entries.add(HalfAshlar.SANDY_PINK_LARGE_BRICK_TIP);
-                entries.add(HalfAshlar.SANDY_PINK_LARGE_BRICK_ARROW_SLIT_ORNATE);
-                entries.add(HalfAshlar.SANDY_PINK_LARGE_BRICK_ARROW_SLIT_WINDOW);
-                entries.add(HalfAshlar.SANDY_PINK_LARGE_BRICK_ARROW_SLIT_ORNATE);
                 entries.add(HalfAshlar.COARSE_RED_LARGE_BRICK);
                 entries.add(HalfAshlar.COARSE_RED_LARGE_BRICK_STAIRS);
                 entries.add(HalfAshlar.COARSE_RED_LARGE_BRICK_SLAB);
@@ -203,7 +194,6 @@ public class WcItemGroupHalfAshlar {
                 entries.add(HalfAshlar.DARK_BROWN_SANDSTONE_FENCE);
                 entries.add(HalfAshlar.DARK_BROWN_SANDSTONE_HOPPER);
                 entries.add(HalfAshlar.DARK_BROWN_SANDSTONE_TIP);
-                entries.add(HalfAshlar.DARK_BROWN_SANDSTONE);
             }).build();
     public static void registerItemGroups() {
         Registry.register(Registries.ITEM_GROUP, new Identifier(Rhumtopia.MOD_ID, "half_ashlar"), HALF_ASHLAR);
