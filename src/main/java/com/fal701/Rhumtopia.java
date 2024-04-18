@@ -8,6 +8,8 @@ import com.fal701.block.Fieldstone.Fieldstone;
 import com.fal701.block.Fieldstone.WcItemGroupFieldstone;
 import com.fal701.block.HalfAshlar.HalfAshlar;
 import com.fal701.block.HalfAshlar.WcItemGroupHalfAshlar;
+import com.fal701.block.MarbleAndPlaster.MarblePlaster;
+import com.fal701.block.MarbleAndPlaster.WcItemGroupMarblePlaster;
 import com.fal701.block.MediumAshlar.MediumAshlar;
 import com.fal701.block.MediumAshlar.WcItemGroupMediumAshlar;
 import com.fal701.block.QuarterAshlar.QuarterAshlar;
@@ -34,6 +36,7 @@ public class Rhumtopia implements ModInitializer {
 		MediumAshlar.registerModBlocks();
 		HalfAshlar.registerModBlocks();
 		Brick.registerModBlocks();
+		MarblePlaster.registerModBlocks();
 
 		WcItemGroupCobblestone.registerItemGroups();
 		WcItemGroupFieldstone.registerItemGroups();
@@ -42,6 +45,7 @@ public class Rhumtopia implements ModInitializer {
 		WcItemGroupMediumAshlar.registerItemGroups();
 		WcItemGroupHalfAshlar.registerItemGroups();
 		WcItemGroupBrick.registerItemGroups();
+		WcItemGroupMarblePlaster.registerItemGroups();
 	}
 
 }

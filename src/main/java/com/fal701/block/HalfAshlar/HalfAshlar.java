@@ -30,7 +30,7 @@ public class HalfAshlar {
     public static final Block DARK_GREY_LARGE_BRICK = registerBlock("dark_grey_large_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DARK_GREY_LARGE_BRICK_STAIRS = registerBlock("dark_grey_large_brick_stairs", new WcStairs(DARK_GREY_LARGE_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DARK_GREY_LARGE_BRICK_SLAB = registerBlock("dark_grey_large_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block DARK_GREY_LARGE_BRICK_WALL = registerBlock("dark_grey_large_brickwall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block DARK_GREY_LARGE_BRICK_WALL = registerBlock("dark_grey_large_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DARK_GREY_LARGE_BRICK_FENCE = registerBlock("dark_grey_large_brick_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DARK_GREY_LARGE_BRICK_HOPPER = registerBlock("dark_grey_large_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DARK_GREY_LARGE_BRICK_TIP = registerBlock("dark_grey_large_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -40,7 +40,7 @@ public class HalfAshlar {
     public static final Block BROWN_GREY_LARGE_BRICK = registerBlock("brown_grey_large_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_LARGE_BRICK_STAIRS = registerBlock("brown_grey_large_brick_stairs", new WcStairs(BROWN_GREY_LARGE_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_LARGE_BRICK_SLAB = registerBlock("brown_grey_large_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block BROWN_GREY_LARGE_BRICK_WALL = registerBlock("brown_grey_large_brickwall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block BROWN_GREY_LARGE_BRICK_WALL = registerBlock("brown_grey_large_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_LARGE_BRICK_FENCE = registerBlock("brown_grey_large_brick_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_LARGE_BRICK_HOPPER = registerBlock("brown_grey_large_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_LARGE_BRICK_TIP = registerBlock("brown_grey_large_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -50,7 +50,7 @@ public class HalfAshlar {
     public static final Block GREEN_GREY_LARGE_BRICK = registerBlock("green_grey_large_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block GREEN_GREY_LARGE_BRICK_STAIRS = registerBlock("green_grey_large_brick_stairs", new WcStairs(GREEN_GREY_LARGE_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block GREEN_GREY_LARGE_BRICK_SLAB = registerBlock("green_grey_large_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block GREEN_GREY_LARGE_BRICK_WALL = registerBlock("green_grey_large_brickwall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block GREEN_GREY_LARGE_BRICK_WALL = registerBlock("green_grey_large_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block GREEN_GREY_LARGE_BRICK_FENCE = registerBlock("green_grey_large_brick_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block GREEN_GREY_LARGE_BRICK_HOPPER = registerBlock("green_grey_large_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block GREEN_GREY_LARGE_BRICK_TIP = registerBlock("green_grey_large_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
