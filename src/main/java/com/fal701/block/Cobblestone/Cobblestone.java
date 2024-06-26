@@ -18,9 +18,18 @@ public class Cobblestone {
     public static final Block FLAGSTONE = registerBlock("flagstone", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_STONE_SLABS = registerBlock("sandy_stone_slabs", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
 
+    public static final Block COBBLESTONE = registerBlock("cobblestone", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block COBBLESTONE_STAIRS = registerBlock("cobblestone_stairs", new WcStairs(Cobblestone.COBBLESTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block COBBLESTONE_SLAB = registerBlock("cobblestone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block COBBLESTONE_WALL = registerBlock("cobblestone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+
     public static final Block COBBLESTONE_FENCE = registerBlock("cobblestone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block COBBLESTONE_HOPPER = registerBlock("cobblestone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block COBBLESTONE_TIP = registerBlock("cobblestone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block MOSSY_COBBLESTONE = registerBlock("mossy_cobblestone", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block MOSSY_COBBLESTONE_STAIRS = registerBlock("mossy_cobblestone_stairs", new WcStairs(Cobblestone.COBBLESTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block MOSSY_COBBLESTONE_SLAB = registerBlock("mossy_cobblestone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block MOSSY_COBBLESTONE_WALL = registerBlock("mossy_cobblestone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
 
     public static final Block MOSSY_COBBLESTONE_FENCE = registerBlock("mossy_cobblestone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block MOSSY_COBBLESTONE_HOPPER = registerBlock("mossy_cobblestone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));

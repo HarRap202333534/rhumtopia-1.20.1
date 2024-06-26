@@ -18,17 +18,17 @@ public class WcItemGroupCobblestone {
             .entries((context, entries) -> {
                 entries.add(Cobblestone.FLAGSTONE);
                 entries.add(Cobblestone.SANDY_STONE_SLABS);
-                entries.add(Blocks.COBBLESTONE);
-                entries.add(Blocks.COBBLESTONE_STAIRS);
-                entries.add(Blocks.COBBLESTONE_SLAB);
-                entries.add(Blocks.COBBLESTONE_WALL);
+                entries.add(Cobblestone.COBBLESTONE);
+                entries.add(Cobblestone.COBBLESTONE_STAIRS);
+                entries.add(Cobblestone.COBBLESTONE_SLAB);
+                entries.add(Cobblestone.COBBLESTONE_WALL);
                 entries.add(Cobblestone.COBBLESTONE_FENCE);
                 entries.add(Cobblestone.COBBLESTONE_HOPPER);
                 entries.add(Cobblestone.COBBLESTONE_TIP); //1
-                entries.add(Blocks.MOSSY_COBBLESTONE);
-                entries.add(Blocks.MOSSY_COBBLESTONE_STAIRS);
-                entries.add(Blocks.MOSSY_COBBLESTONE_SLAB);
-                entries.add(Blocks.MOSSY_COBBLESTONE_WALL);
+                entries.add(Cobblestone.MOSSY_COBBLESTONE);
+                entries.add(Cobblestone.MOSSY_COBBLESTONE_STAIRS);
+                entries.add(Cobblestone.MOSSY_COBBLESTONE_SLAB);
+                entries.add(Cobblestone.MOSSY_COBBLESTONE_WALL);
                 entries.add(Cobblestone.MOSSY_COBBLESTONE_FENCE);
                 entries.add(Cobblestone.MOSSY_COBBLESTONE_HOPPER);
                 entries.add(Cobblestone.MOSSY_COBBLESTONE_TIP); //2

@@ -16,6 +16,8 @@ import com.fal701.block.QuarterAshlar.QuarterAshlar;
 import com.fal701.block.QuarterAshlar.WcItemGroupQuarterAshlar;
 import com.fal701.block.SmoothAshlar.SmoothAshlar;
 import com.fal701.block.SmoothAshlar.WcItemGroupSmoothAshlar;
+import com.fal701.block.TimberFrame.TimberFrame;
+import com.fal701.block.TimberFrame.WcItemGroupTimberFrame;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -37,6 +39,7 @@ public class Rhumtopia implements ModInitializer {
 		HalfAshlar.registerModBlocks();
 		Brick.registerModBlocks();
 		MarblePlaster.registerModBlocks();
+		TimberFrame.registerModBlocks();
 
 		WcItemGroupCobblestone.registerItemGroups();
 		WcItemGroupFieldstone.registerItemGroups();
@@ -46,6 +49,7 @@ public class Rhumtopia implements ModInitializer {
 		WcItemGroupHalfAshlar.registerItemGroups();
 		WcItemGroupBrick.registerItemGroups();
 		WcItemGroupMarblePlaster.registerItemGroups();
+		WcItemGroupTimberFrame.registerItemGroups();
 	}
 
 }

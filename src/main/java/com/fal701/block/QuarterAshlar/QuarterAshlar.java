@@ -85,7 +85,7 @@ public class QuarterAshlar {
     public static final Block SMALL_SMOOTH_STONE_BRICK_WALL = registerBlock("small_smooth_stone_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SMALL_SMOOTH_STONE_BRICK_FENCE = registerBlock("small_smooth_stone_brick_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SMALL_SMOOTH_STONE_BRICK_HOPPER = registerBlock("small_smooth_stone_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block SMALL_SMOOTH_STONE_BRICK_TIP = registerBlock("small_stone_smooth_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block SMALL_SMOOTH_STONE_BRICK_TIP = registerBlock("small_smooth_stone_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SMALL_SMOOTH_STONE_BRICK_ARROW_SLIT = registerBlock("small_smooth_stone_brick_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SMALL_SMOOTH_STONE_BRICK_ARROW_SLIT_WINDOW = registerBlock("small_smooth_stone_brick_arrow_slit_window", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SMALL_SMOOTH_STONE_BRICK_ARROW_SLIT_ORNATE = registerBlock("small_smooth_stone_brick_arrow_slit_ornate", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
