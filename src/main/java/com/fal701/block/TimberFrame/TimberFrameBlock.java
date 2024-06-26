@@ -80,6 +80,30 @@ public class TimberFrameBlock extends Block {
             world.setBlockState(pos11, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
             world.setBlockState(pos12, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
         }
+        if(world.getBlockState(pos13).getBlock() == world.getBlockState(pos).getBlock() && world.getBlockState(pos14).getBlock() == world.getBlockState(pos).getBlock() && world.getBlockState(pos15).getBlock() == world.getBlockState(pos).getBlock()) {
+            world.setBlockState(pos, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos13, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos14, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos15, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+        }
+        if(world.getBlockState(pos16).getBlock() == world.getBlockState(pos).getBlock() && world.getBlockState(pos17).getBlock() == world.getBlockState(pos).getBlock() && world.getBlockState(pos18).getBlock() == world.getBlockState(pos).getBlock()) {
+            world.setBlockState(pos, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos16, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos17, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos18, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+        }
+        if(world.getBlockState(pos19).getBlock() == world.getBlockState(pos).getBlock() && world.getBlockState(pos20).getBlock() == world.getBlockState(pos).getBlock() && world.getBlockState(pos21).getBlock() == world.getBlockState(pos).getBlock()) {
+            world.setBlockState(pos, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos19, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos20, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos21, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+        }
+        if(world.getBlockState(pos22).getBlock() == world.getBlockState(pos).getBlock() && world.getBlockState(pos23).getBlock() == world.getBlockState(pos).getBlock() && world.getBlockState(pos24).getBlock() == world.getBlockState(pos).getBlock()) {
+            world.setBlockState(pos, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos22, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos23, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+            world.setBlockState(pos24, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+        }
     }
 
     @Override
