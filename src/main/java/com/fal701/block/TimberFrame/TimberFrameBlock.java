@@ -4,10 +4,15 @@ import com.fal701.block.StateEnum;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
+import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.GameMode;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -23,7 +28,7 @@ public class TimberFrameBlock extends Block {
 
     @Override
     public void onPlaced(World world, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack itemStack) {
-        BlockPos pos1 = new BlockPos(pos.getX() + 1, pos.getY(), pos.getZ());
+        /*BlockPos pos1 = new BlockPos(pos.getX() + 1, pos.getY(), pos.getZ());
         BlockPos pos2 = new BlockPos(pos.getX(), pos.getY() + 1, pos.getZ());
         BlockPos pos3 = new BlockPos(pos.getX() + 1, pos.getY() + 1, pos.getZ());
 
@@ -103,7 +108,30 @@ public class TimberFrameBlock extends Block {
             world.setBlockState(pos22, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
             world.setBlockState(pos23, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
             world.setBlockState(pos24, state.with(STATE, StateEnum.STATE4), Block.NOTIFY_ALL);
+        }*/
+    }
+
+    @Override
+    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+        if(player.isCreative() && player.getMainHandStack() == ItemStack.EMPTY){
+            if(state == state.with(STATE, StateEnum.STATE0)){
+                world.setBlockState(pos, state.with(STATE, StateEnum.STATE1));
+            }
+            else if(state == state.with(STATE, StateEnum.STATE1)){
+                world.setBlockState(pos, state.with(STATE, StateEnum.STATE2));
+            }
+            else if(state == state.with(STATE, StateEnum.STATE2)){
+                world.setBlockState(pos, state.with(STATE, StateEnum.STATE3));
+            }
+            else if(state == state.with(STATE, StateEnum.STATE3)){
+                world.setBlockState(pos, state.with(STATE, StateEnum.STATE4));
+            }
+            else if(state == state.with(STATE, StateEnum.STATE4)){
+                world.setBlockState(pos, state.with(STATE, StateEnum.STATE0));
+            }
+            return ActionResult.SUCCESS;
         }
+        return ActionResult.PASS;
     }
 
     @Override
