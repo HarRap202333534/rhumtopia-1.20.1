@@ -24,3 +24,4 @@ public enum StateEnum implements StringIdentifiable {
         return this.name;
     }
 }
+

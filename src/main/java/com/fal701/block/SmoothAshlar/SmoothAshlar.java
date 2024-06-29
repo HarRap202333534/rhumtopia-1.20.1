@@ -1,10 +1,7 @@
 package com.fal701.block.SmoothAshlar;
 
 import com.fal701.Rhumtopia;
-import com.fal701.block.Z_custom.WcArrowSlit;
-import com.fal701.block.Z_custom.WcHopper;
-import com.fal701.block.Z_custom.WcHopperU;
-import com.fal701.block.Z_custom.WcStairs;
+import com.fal701.block.Z_custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -19,7 +16,7 @@ public class SmoothAshlar {
     public static final Block BLACK_LIGHT_STONE_STAIRS = registerBlock("black_light_stone_stairs", new WcStairs(SmoothAshlar.BLACK_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BLACK_LIGHT_STONE_SLAB = registerBlock("black_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BLACK_LIGHT_STONE_WALL = registerBlock("black_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block BLACK_LIGHT_STONE_FENCE = registerBlock("black_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block BLACK_LIGHT_STONE_FENCE = registerBlock("black_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BLACK_LIGHT_STONE_HOPPER = registerBlock("black_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BLACK_LIGHT_STONE_TIP = registerBlock("black_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BLACK_LIGHT_STONE_ARROW_SLIT = registerBlock("black_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -29,7 +26,7 @@ public class SmoothAshlar {
     public static final Block BROWN_GREY_LIGHT_STONE_STAIRS = registerBlock("brown_grey_light_stone_stairs", new WcStairs(SmoothAshlar.BROWN_GREY_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_LIGHT_STONE_SLAB = registerBlock("brown_grey_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_LIGHT_STONE_WALL = registerBlock("brown_grey_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block BROWN_GREY_LIGHT_STONE_FENCE = registerBlock("brown_grey_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block BROWN_GREY_LIGHT_STONE_FENCE = registerBlock("brown_grey_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_LIGHT_STONE_HOPPER = registerBlock("brown_grey_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_LIGHT_STONE_TIP = registerBlock("brown_grey_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_LIGHT_STONE_ARROW_SLIT = registerBlock("brown_grey_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -39,7 +36,7 @@ public class SmoothAshlar {
     public static final Block GREY_LIGHT_STONE_STAIRS = registerBlock("grey_light_stone_stairs", new WcStairs(SmoothAshlar.GREY_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block GREY_LIGHT_STONE_SLAB = registerBlock("grey_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block GREY_LIGHT_STONE_WALL = registerBlock("grey_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block GREY_LIGHT_STONE_FENCE = registerBlock("grey_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block GREY_LIGHT_STONE_FENCE = registerBlock("grey_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block GREY_LIGHT_STONE_HOPPER = registerBlock("grey_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block GREY_LIGHT_STONE_TIP = registerBlock("grey_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block GREY_LIGHT_STONE_ARROW_SLIT = registerBlock("grey_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -49,7 +46,7 @@ public class SmoothAshlar {
     public static final Block FAINT_LIGHT_GREY_LIGHT_STONE_STAIRS = registerBlock("faint_light_grey_light_stone_stairs", new WcStairs(SmoothAshlar.FAINT_LIGHT_GREY_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_LIGHT_GREY_LIGHT_STONE_SLAB = registerBlock("faint_light_grey_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_LIGHT_GREY_LIGHT_STONE_WALL = registerBlock("faint_light_grey_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block FAINT_LIGHT_GREY_LIGHT_STONE_FENCE = registerBlock("faint_light_grey_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block FAINT_LIGHT_GREY_LIGHT_STONE_FENCE = registerBlock("faint_light_grey_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_LIGHT_GREY_LIGHT_STONE_HOPPER = registerBlock("faint_light_grey_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_LIGHT_GREY_LIGHT_STONE_TIP = registerBlock("faint_light_grey_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_LIGHT_GREY_LIGHT_STONE_ARROW_SLIT = registerBlock("faint_light_grey_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -59,7 +56,7 @@ public class SmoothAshlar {
     public static final Block WHITE_LIGHT_STONE_STAIRS = registerBlock("white_light_stone_stairs", new WcStairs(SmoothAshlar.WHITE_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block WHITE_LIGHT_STONE_SLAB = registerBlock("white_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block WHITE_LIGHT_STONE_WALL = registerBlock("white_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block WHITE_LIGHT_STONE_FENCE = registerBlock("white_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block WHITE_LIGHT_STONE_FENCE = registerBlock("white_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block WHITE_LIGHT_STONE_HOPPER = registerBlock("white_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block WHITE_LIGHT_STONE_TIP = registerBlock("white_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block WHITE_LIGHT_STONE_ARROW_SLIT = registerBlock("white_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -69,7 +66,7 @@ public class SmoothAshlar {
     public static final Block LIGHT_STONE_STAIRS = registerBlock("light_stone_stairs", new WcStairs(SmoothAshlar.LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_STONE_SLAB = registerBlock("light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_STONE_WALL = registerBlock("light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LIGHT_STONE_FENCE = registerBlock("light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LIGHT_STONE_FENCE = registerBlock("light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_STONE_HOPPER = registerBlock("light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_STONE_TIP = registerBlock("light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_STONE_ARROW_SLIT = registerBlock("light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -79,7 +76,7 @@ public class SmoothAshlar {
     public static final Block PALE_PINK_LIGHT_STONE_STAIRS = registerBlock("pale_pink_light_stone_stairs", new WcStairs(SmoothAshlar.PALE_PINK_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_LIGHT_STONE_SLAB = registerBlock("pale_pink_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_LIGHT_STONE_WALL = registerBlock("pale_pink_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block PALE_PINK_LIGHT_STONE_FENCE = registerBlock("pale_pink_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block PALE_PINK_LIGHT_STONE_FENCE = registerBlock("pale_pink_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_LIGHT_STONE_HOPPER = registerBlock("pale_pink_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_LIGHT_STONE_TIP = registerBlock("pale_pink_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_LIGHT_STONE_ARROW_SLIT = registerBlock("pale_pink_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -89,7 +86,7 @@ public class SmoothAshlar {
     public static final Block RED_LIGHT_STONE_STAIRS = registerBlock("red_light_stone_stairs", new WcStairs(SmoothAshlar.RED_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block RED_LIGHT_STONE_SLAB = registerBlock("red_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block RED_LIGHT_STONE_WALL = registerBlock("red_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block RED_LIGHT_STONE_FENCE = registerBlock("red_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block RED_LIGHT_STONE_FENCE = registerBlock("red_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block RED_LIGHT_STONE_HOPPER = registerBlock("red_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block RED_LIGHT_STONE_TIP = registerBlock("red_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block RED_LIGHT_STONE_ARROW_SLIT = registerBlock("red_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -99,7 +96,7 @@ public class SmoothAshlar {
     public static final Block DARK_RED_LIGHT_STONE_STAIRS = registerBlock("dark_red_light_stone_stairs", new WcStairs(SmoothAshlar.DARK_RED_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DARK_RED_LIGHT_STONE_SLAB = registerBlock("dark_red_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DARK_RED_LIGHT_STONE_WALL = registerBlock("dark_red_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block DARK_RED_LIGHT_STONE_FENCE = registerBlock("dark_red_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block DARK_RED_LIGHT_STONE_FENCE = registerBlock("dark_red_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DARK_RED_LIGHT_STONE_HOPPER = registerBlock("dark_red_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DARK_RED_LIGHT_STONE_TIP = registerBlock("dark_red_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block DARK_RED_LIGHT_STONE_ARROW_SLIT = registerBlock("dark_red_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -109,7 +106,7 @@ public class SmoothAshlar {
     public static final Block OLDTOWN_LIGHT_STONE_STAIRS = registerBlock("oldtown_light_stone_stairs", new WcStairs(SmoothAshlar.OLDTOWN_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block OLDTOWN_LIGHT_STONE_SLAB = registerBlock("oldtown_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block OLDTOWN_LIGHT_STONE_WALL = registerBlock("oldtown_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block OLDTOWN_LIGHT_STONE_FENCE = registerBlock("oldtown_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block OLDTOWN_LIGHT_STONE_FENCE = registerBlock("oldtown_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block OLDTOWN_LIGHT_STONE_HOPPER = registerBlock("oldtown_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block OLDTOWN_LIGHT_STONE_TIP = registerBlock("oldtown_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block OLDTOWN_LIGHT_STONE_ARROW_SLIT = registerBlock("oldtown_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -119,7 +116,7 @@ public class SmoothAshlar {
     public static final Block ARBOR_LIGHT_STONE_STAIRS = registerBlock("arbor_light_stone_stairs", new WcStairs(SmoothAshlar.ARBOR_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_LIGHT_STONE_SLAB = registerBlock("arbor_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_LIGHT_STONE_WALL = registerBlock("arbor_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block ARBOR_LIGHT_STONE_FENCE = registerBlock("arbor_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block ARBOR_LIGHT_STONE_FENCE = registerBlock("arbor_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_LIGHT_STONE_HOPPER = registerBlock("arbor_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_LIGHT_STONE_TIP = registerBlock("arbor_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_LIGHT_STONE_ARROW_SLIT = registerBlock("arbor_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -129,7 +126,7 @@ public class SmoothAshlar {
     public static final Block LANNISPORT_LIGHT_STONE_STAIRS = registerBlock("lannisport_light_stone_stairs", new WcStairs(SmoothAshlar.LANNISPORT_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LANNISPORT_LIGHT_STONE_SLAB = registerBlock("lannisport_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LANNISPORT_LIGHT_STONE_WALL = registerBlock("lannisport_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_STONE_FENCE = registerBlock("lannisport_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_STONE_FENCE = registerBlock("lannisport_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LANNISPORT_LIGHT_STONE_HOPPER = registerBlock("lannisport_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LANNISPORT_LIGHT_STONE_TIP = registerBlock("lannisport_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LANNISPORT_LIGHT_STONE_ARROW_SLIT = registerBlock("lannisport_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -139,7 +136,7 @@ public class SmoothAshlar {
     public static final Block STORMLANDS_LIGHT_STONE_STAIRS = registerBlock("stormlands_light_stone_stairs", new WcStairs(SmoothAshlar.STORMLANDS_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block STORMLANDS_LIGHT_STONE_SLAB = registerBlock("stormlands_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block STORMLANDS_LIGHT_STONE_WALL = registerBlock("stormlands_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block STORMLANDS_LIGHT_STONE_FENCE = registerBlock("stormlands_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block STORMLANDS_LIGHT_STONE_FENCE = registerBlock("stormlands_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block STORMLANDS_LIGHT_STONE_HOPPER = registerBlock("stormlands_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block STORMLANDS_LIGHT_STONE_TIP = registerBlock("stormlands_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block STORMLANDS_LIGHT_STONE_ARROW_SLIT = registerBlock("stormlands_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -149,7 +146,7 @@ public class SmoothAshlar {
     public static final Block TERRACOTTA_LIGHT_STONE_STAIRS = registerBlock("terracotta_light_stone_stairs", new WcStairs(SmoothAshlar.TERRACOTTA_LIGHT_STONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block TERRACOTTA_LIGHT_STONE_SLAB = registerBlock("terracotta_light_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block TERRACOTTA_LIGHT_STONE_WALL = registerBlock("terracotta_light_stone_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block TERRACOTTA_LIGHT_STONE_FENCE = registerBlock("terracotta_light_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block TERRACOTTA_LIGHT_STONE_FENCE = registerBlock("terracotta_light_stone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block TERRACOTTA_LIGHT_STONE_HOPPER = registerBlock("terracotta_light_stone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block TERRACOTTA_LIGHT_STONE_TIP = registerBlock("terracotta_light_stone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block TERRACOTTA_LIGHT_STONE_ARROW_SLIT = registerBlock("terracotta_light_stone_arrow_slit", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));

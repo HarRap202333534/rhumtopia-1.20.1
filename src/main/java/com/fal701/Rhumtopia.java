@@ -14,10 +14,14 @@ import com.fal701.block.MediumAshlar.MediumAshlar;
 import com.fal701.block.MediumAshlar.WcItemGroupMediumAshlar;
 import com.fal701.block.QuarterAshlar.QuarterAshlar;
 import com.fal701.block.QuarterAshlar.WcItemGroupQuarterAshlar;
+import com.fal701.block.Roofing.Roofing;
+import com.fal701.block.Roofing.WcItemGroupRoofing;
 import com.fal701.block.SmoothAshlar.SmoothAshlar;
 import com.fal701.block.SmoothAshlar.WcItemGroupSmoothAshlar;
 import com.fal701.block.TimberFrame.TimberFrame;
 import com.fal701.block.TimberFrame.WcItemGroupTimberFrame;
+import com.fal701.block.WoodPlanks.WcItemGroupWoodPlanks;
+import com.fal701.block.WoodPlanks.WoodPlanks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -40,6 +44,8 @@ public class Rhumtopia implements ModInitializer {
 		Brick.registerModBlocks();
 		MarblePlaster.registerModBlocks();
 		TimberFrame.registerModBlocks();
+		Roofing.registerModBlocks();
+		WoodPlanks.registerModBlocks();
 
 		WcItemGroupCobblestone.registerItemGroups();
 		WcItemGroupFieldstone.registerItemGroups();
@@ -50,6 +56,8 @@ public class Rhumtopia implements ModInitializer {
 		WcItemGroupBrick.registerItemGroups();
 		WcItemGroupMarblePlaster.registerItemGroups();
 		WcItemGroupTimberFrame.registerItemGroups();
+		WcItemGroupRoofing.registerItemGroups();
+		WcItemGroupWoodPlanks.registerItemGroups();
 	}
 
 }
