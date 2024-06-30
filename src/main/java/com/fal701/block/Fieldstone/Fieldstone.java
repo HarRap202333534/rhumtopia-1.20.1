@@ -15,7 +15,7 @@ public class Fieldstone {
     public static final Block FAINT_BROWN_GREY_BRICK = registerBlock("faint_brown_grey_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_BROWN_GREY_BRICK_STAIRS = registerBlock("faint_brown_grey_brick_stairs", new WcStairs(Fieldstone.FAINT_BROWN_GREY_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_BROWN_GREY_BRICK_SLAB = registerBlock("faint_brown_grey_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block FAINT_BROWN_GREY_BRICK_WALL = registerBlock("faint_brown_grey_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block FAINT_BROWN_GREY_BRICK_WALL = registerBlock("faint_brown_grey_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_BROWN_GREY_BRICK_FENCE = registerBlock("faint_brown_grey_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_BROWN_GREY_BRICK_HOPPER = registerBlock("faint_brown_grey_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_BROWN_GREY_BRICK_TIP = registerBlock("faint_brown_grey_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -26,7 +26,7 @@ public class Fieldstone {
     public static final Block BROWN_GREY_BRICK = registerBlock("brown_grey_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_BRICK_STAIRS = registerBlock("brown_grey_brick_stairs", new WcStairs(Fieldstone.BROWN_GREY_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_BRICK_SLAB = registerBlock("brown_grey_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block BROWN_GREY_BRICK_WALL = registerBlock("brown_grey_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block BROWN_GREY_BRICK_WALL = registerBlock("brown_grey_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_BRICK_FENCE = registerBlock("brown_grey_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_BRICK_HOPPER = registerBlock("brown_grey_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block BROWN_GREY_BRICK_TIP = registerBlock("brown_grey_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -37,7 +37,7 @@ public class Fieldstone {
     public static final Block LIGHT_GREY_BRICK = registerBlock("light_grey_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_GREY_BRICK_STAIRS = registerBlock("light_grey_brick_stairs", new WcStairs(Fieldstone.LIGHT_GREY_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_GREY_BRICK_SLAB = registerBlock("light_grey_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LIGHT_GREY_BRICK_WALL = registerBlock("light_grey_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LIGHT_GREY_BRICK_WALL = registerBlock("light_grey_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_GREY_BRICK_FENCE = registerBlock("light_grey_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_GREY_BRICK_HOPPER = registerBlock("light_grey_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_GREY_BRICK_TIP = registerBlock("light_grey_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -48,7 +48,7 @@ public class Fieldstone {
     public static final Block FAINT_LIGHT_GREY_BRICK = registerBlock("faint_light_grey_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_LIGHT_GREY_BRICK_STAIRS = registerBlock("faint_light_grey_brick_stairs", new WcStairs(Fieldstone.FAINT_LIGHT_GREY_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_LIGHT_GREY_BRICK_SLAB = registerBlock("faint_light_grey_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block FAINT_LIGHT_GREY_BRICK_WALL = registerBlock("faint_light_grey_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block FAINT_LIGHT_GREY_BRICK_WALL = registerBlock("faint_light_grey_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_LIGHT_GREY_BRICK_FENCE = registerBlock("faint_light_grey_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_LIGHT_GREY_BRICK_HOPPER = registerBlock("faint_light_grey_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block FAINT_LIGHT_GREY_BRICK_TIP = registerBlock("faint_light_grey_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -59,7 +59,7 @@ public class Fieldstone {
     public static final Block WHITE_LIGHT_BRICK = registerBlock("white_light_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block WHITE_LIGHT_BRICK_STAIRS = registerBlock("white_light_brick_stairs", new WcStairs(Fieldstone.WHITE_LIGHT_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block WHITE_LIGHT_BRICK_SLAB = registerBlock("white_light_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block WHITE_LIGHT_BRICK_WALL = registerBlock("white_light_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block WHITE_LIGHT_BRICK_WALL = registerBlock("white_light_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block WHITE_LIGHT_BRICK_FENCE = registerBlock("white_light_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block WHITE_LIGHT_BRICK_HOPPER = registerBlock("white_light_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block WHITE_LIGHT_BRICK_TIP = registerBlock("white_light_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -70,7 +70,7 @@ public class Fieldstone {
     public static final Block REACH_LIGHT_BRICK = registerBlock("reach_light_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block REACH_LIGHT_BRICK_STAIRS = registerBlock("reach_light_brick_stairs", new WcStairs(Fieldstone.REACH_LIGHT_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block REACH_LIGHT_BRICK_SLAB = registerBlock("reach_light_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block REACH_LIGHT_BRICK_WALL = registerBlock("reach_light_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block REACH_LIGHT_BRICK_WALL = registerBlock("reach_light_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block REACH_LIGHT_BRICK_FENCE = registerBlock("reach_light_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block REACH_LIGHT_BRICK_HOPPER = registerBlock("reach_light_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block REACH_LIGHT_BRICK_TIP = registerBlock("reach_light_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -81,7 +81,7 @@ public class Fieldstone {
     public static final Block PALE_PINK_FAINT_LIGHT_BRICK = registerBlock("pale_pink_faint_light_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_FAINT_LIGHT_BRICK_STAIRS = registerBlock("pale_pink_faint_light_brick_stairs", new WcStairs(Fieldstone.PALE_PINK_FAINT_LIGHT_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_FAINT_LIGHT_BRICK_SLAB = registerBlock("pale_pink_faint_light_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block PALE_PINK_FAINT_LIGHT_BRICK_WALL = registerBlock("pale_pink_faint_light_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block PALE_PINK_FAINT_LIGHT_BRICK_WALL = registerBlock("pale_pink_faint_light_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_FAINT_LIGHT_BRICK_FENCE = registerBlock("pale_pink_faint_light_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_FAINT_LIGHT_BRICK_HOPPER = registerBlock("pale_pink_faint_light_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_FAINT_LIGHT_BRICK_TIP = registerBlock("pale_pink_faint_light_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -92,7 +92,7 @@ public class Fieldstone {
     public static final Block PALE_PINK_LIGHT_BRICK = registerBlock("pale_pink_light_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_LIGHT_BRICK_STAIRS = registerBlock("pale_pink_light_brick_stairs", new WcStairs(Fieldstone.PALE_PINK_LIGHT_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_LIGHT_BRICK_SLAB = registerBlock("pale_pink_light_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block PALE_PINK_LIGHT_BRICK_WALL = registerBlock("pale_pink_light_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block PALE_PINK_LIGHT_BRICK_WALL = registerBlock("pale_pink_light_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_LIGHT_BRICK_FENCE = registerBlock("pale_pink_light_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_LIGHT_BRICK_HOPPER = registerBlock("pale_pink_light_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block PALE_PINK_LIGHT_BRICK_TIP = registerBlock("pale_pink_light_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -103,7 +103,7 @@ public class Fieldstone {
     public static final Block SANDY_PINK_FAINT_LIGHT_BRICK = registerBlock("sandy_pink_faint_light_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_PINK_FAINT_LIGHT_BRICK_STAIRS = registerBlock("sandy_pink_faint_light_brick_stairs", new WcStairs(Fieldstone.SANDY_PINK_FAINT_LIGHT_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_PINK_FAINT_LIGHT_BRICK_SLAB = registerBlock("sandy_pink_faint_light_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block SANDY_PINK_FAINT_LIGHT_BRICK_WALL = registerBlock("sandy_pink_faint_light_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block SANDY_PINK_FAINT_LIGHT_BRICK_WALL = registerBlock("sandy_pink_faint_light_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_PINK_FAINT_LIGHT_BRICK_FENCE = registerBlock("sandy_pink_faint_light_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_PINK_FAINT_LIGHT_BRICK_HOPPER = registerBlock("sandy_pink_faint_light_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_PINK_FAINT_LIGHT_BRICK_TIP = registerBlock("sandy_pink_faint_light_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -114,7 +114,7 @@ public class Fieldstone {
     public static final Block SANDY_PINK_LIGHT_BRICK = registerBlock("sandy_pink_light_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_PINK_LIGHT_BRICK_STAIRS = registerBlock("sandy_pink_light_brick_stairs", new WcStairs(Fieldstone.SANDY_PINK_LIGHT_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_PINK_LIGHT_BRICK_SLAB = registerBlock("sandy_pink_light_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block SANDY_PINK_LIGHT_BRICK_WALL = registerBlock("sandy_pink_light_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block SANDY_PINK_LIGHT_BRICK_WALL = registerBlock("sandy_pink_light_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_PINK_LIGHT_BRICK_FENCE = registerBlock("sandy_pink_light_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_PINK_LIGHT_BRICK_HOPPER = registerBlock("sandy_pink_light_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block SANDY_PINK_LIGHT_BRICK_TIP = registerBlock("sandy_pink_light_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -125,7 +125,7 @@ public class Fieldstone {
     public static final Block LIGHT_OLDTOWN_BRICK = registerBlock("light_oldtown_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_OLDTOWN_BRICK_STAIRS = registerBlock("light_oldtown_brick_stairs", new WcStairs(Fieldstone.LIGHT_OLDTOWN_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_OLDTOWN_BRICK_SLAB = registerBlock("light_oldtown_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LIGHT_OLDTOWN_BRICK_WALL = registerBlock("light_oldtown_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LIGHT_OLDTOWN_BRICK_WALL = registerBlock("light_oldtown_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_OLDTOWN_BRICK_FENCE = registerBlock("light_oldtown_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_OLDTOWN_BRICK_HOPPER = registerBlock("light_oldtown_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LIGHT_OLDTOWN_BRICK_TIP = registerBlock("light_oldtown_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -136,7 +136,7 @@ public class Fieldstone {
     public static final Block OLDTOWN_BRICK = registerBlock("oldtown_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block OLDTOWN_BRICK_STAIRS = registerBlock("oldtown_brick_stairs", new WcStairs(Fieldstone.OLDTOWN_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block OLDTOWN_BRICK_SLAB = registerBlock("oldtown_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block OLDTOWN_BRICK_WALL = registerBlock("oldtown_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block OLDTOWN_BRICK_WALL = registerBlock("oldtown_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block OLDTOWN_BRICK_FENCE = registerBlock("oldtown_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block OLDTOWN_BRICK_HOPPER = registerBlock("oldtown_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block OLDTOWN_BRICK_TIP = registerBlock("oldtown_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -147,7 +147,7 @@ public class Fieldstone {
     public static final Block ARBOR_SMALL_BRICK = registerBlock("arbor_small_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_SMALL_BRICK_STAIRS = registerBlock("arbor_small_brick_stairs", new WcStairs(Fieldstone.ARBOR_SMALL_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_SMALL_BRICK_SLAB = registerBlock("arbor_small_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block ARBOR_SMALL_BRICK_WALL = registerBlock("arbor_small_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block ARBOR_SMALL_BRICK_WALL = registerBlock("arbor_small_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_SMALL_BRICK_FENCE = registerBlock("arbor_small_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_SMALL_BRICK_HOPPER = registerBlock("arbor_small_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block ARBOR_SMALL_BRICK_TIP = registerBlock("arbor_small_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
@@ -158,7 +158,7 @@ public class Fieldstone {
     public static final Block LANNISPORT_LIGHT_BRICK = registerBlock("lannisport_light_brick", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LANNISPORT_LIGHT_BRICK_STAIRS = registerBlock("lannisport_light_brick_stairs", new WcStairs(Fieldstone.LANNISPORT_LIGHT_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LANNISPORT_LIGHT_BRICK_SLAB = registerBlock("lannisport_light_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
-    public static final Block LANNISPORT_LIGHT_BRICK_WALL = registerBlock("lannisport_light_brick_wall", new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
+    public static final Block LANNISPORT_LIGHT_BRICK_WALL = registerBlock("lannisport_light_brick_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LANNISPORT_LIGHT_BRICK_FENCE = registerBlock("lannisport_light_brick_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LANNISPORT_LIGHT_BRICK_HOPPER = registerBlock("lannisport_light_brick_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));
     public static final Block LANNISPORT_LIGHT_BRICK_TIP = registerBlock("lannisport_light_brick_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).requiresTool()));

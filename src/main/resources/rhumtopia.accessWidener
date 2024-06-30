@@ -1,0 +1,4 @@
+accessWidener v1 named
+
+accessible method net/minecraft/block/WallBlock shouldConnectTo (Lnet/minecraft/block/BlockState;Ljava/lang/Boolean;Lnet\minecraft\util\math\Direction;)B
+extendable method net/minecraft/block/WallBlock shouldConnectTo (Lnet/minecraft/block/BlockState;Ljava/lang/Boolean;Lnet\minecraft\util\math\Direction;)B
