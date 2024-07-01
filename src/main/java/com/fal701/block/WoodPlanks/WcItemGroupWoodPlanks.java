@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class WcItemGroupWoodPlanks {
     public static final ItemGroup WOODPLANKS = FabricItemGroup.builder()
             .icon(() -> new ItemStack(WoodPlanks.LOCKED_OAK_DOOR))
-            .displayName(Text.translatable("itemGroup.westerosblocks.wood_planks"))
+            .displayName(Text.translatable("itemGroup.WesterosWoodPlanks"))
             .entries((context, entries) -> {
                 entries.add(WoodPlanks.OAK_FENCE_WITH_VINES);
                 entries.add(WoodPlanks.SPRUCE_FENCE_WITH_VINES);

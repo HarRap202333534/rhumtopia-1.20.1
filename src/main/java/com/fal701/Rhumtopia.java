@@ -12,6 +12,8 @@ import com.fal701.block.MarbleAndPlaster.MarblePlaster;
 import com.fal701.block.MarbleAndPlaster.WcItemGroupMarblePlaster;
 import com.fal701.block.MediumAshlar.MediumAshlar;
 import com.fal701.block.MediumAshlar.WcItemGroupMediumAshlar;
+import com.fal701.block.Metal.Metal;
+import com.fal701.block.Metal.WcItemGroupMetal;
 import com.fal701.block.PannellingCarving.PannellingCarving;
 import com.fal701.block.PannellingCarving.WcItemGroupPannellingCarving;
 import com.fal701.block.QuarterAshlar.QuarterAshlar;
@@ -22,6 +24,8 @@ import com.fal701.block.SmoothAshlar.SmoothAshlar;
 import com.fal701.block.SmoothAshlar.WcItemGroupSmoothAshlar;
 import com.fal701.block.TimberFrame.TimberFrame;
 import com.fal701.block.TimberFrame.WcItemGroupTimberFrame;
+import com.fal701.block.WindowsGlass.WcItemGroupWindowsGlass;
+import com.fal701.block.WindowsGlass.WindowsGlass;
 import com.fal701.block.WoodPlanks.WcItemGroupWoodPlanks;
 import com.fal701.block.WoodPlanks.WoodPlanks;
 import net.fabricmc.api.ModInitializer;
@@ -49,6 +53,8 @@ public class Rhumtopia implements ModInitializer {
 		Roofing.registerModBlocks();
 		WoodPlanks.registerModBlocks();
 		PannellingCarving.registerModBlocks();
+		Metal.registerModBlocks();
+		WindowsGlass.registerModBlocks();
 
 		WcItemGroupCobblestone.registerItemGroups();
 		WcItemGroupFieldstone.registerItemGroups();
@@ -62,6 +68,8 @@ public class Rhumtopia implements ModInitializer {
 		WcItemGroupRoofing.registerItemGroups();
 		WcItemGroupWoodPlanks.registerItemGroups();
 		WcItemGroupPannellingCarving.registerItemGroups();
+		WcItemGroupMetal.registerItemGroups();
+		WcItemGroupWindowsGlass.registerItemGroups();
 	}
 
 }

@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class WcItemGroupMediumAshlar {
     public static final ItemGroup MEDIUM_ASHLAR = FabricItemGroup.builder()
             .icon(() -> new ItemStack(MediumAshlar.BLACK_GRANITE))
-            .displayName(Text.translatable("itemGroup.westerosblocks.medium_ashlar"))
+            .displayName(Text.translatable("itemGroup.WesterosMediumAshlar"))
             .entries((context, entries) -> {
                 entries.add(MediumAshlar.BLACK_GRANITE);
                 entries.add(MediumAshlar.BLACK_GRANITE_STAIRS);

@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class WcItemGroupSmoothAshlar {
     public static final ItemGroup SMOOTH_ASHLAR = FabricItemGroup.builder()
             .icon(() -> new ItemStack(SmoothAshlar.GREY_LIGHT_STONE))
-            .displayName(Text.translatable("itemGroup.westerosblocks.smooth_ashlar"))
+            .displayName(Text.translatable("itemGroup.WesterosSmoothAshlar"))
             .entries((context, entries) -> {
                 entries.add(SmoothAshlar.BLACK_LIGHT_STONE);
                 entries.add(SmoothAshlar.BLACK_LIGHT_STONE_STAIRS);

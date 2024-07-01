@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class WcItemGroupMarblePlaster {
     public static final ItemGroup MARBLE_PLASTER = FabricItemGroup.builder()
             .icon(() -> new ItemStack(MarblePlaster.MARBLE_PILLAR))
-            .displayName(Text.translatable("itemGroup.westerosblocks.marble_paster"))
+            .displayName(Text.translatable("itemGroup.WesterosMarblePlaster"))
             .entries((context, entries) -> {
                 entries.add(MarblePlaster.MARBLE_PILLAR_VERTICAL_CTM);
                 entries.add(MarblePlaster.MARBLE_WALL);

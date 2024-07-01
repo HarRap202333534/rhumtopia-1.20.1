@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class WcItemGroupPannellingCarving {
     public static final ItemGroup PANNELLING_CARVING = FabricItemGroup.builder()
             .icon(() -> new ItemStack(PannellingCarving.NORTHERN_CARVINGS))
-            .displayName(Text.translatable("itemGroup.westerosblocks.pannelling_carving"))
+            .displayName(Text.translatable("itemGroup.WesterosPanellingCarvings"))
             .entries((context, entries) -> {
                 entries.add(PannellingCarving.NORTHERN_CARVINGS);
                 entries.add(PannellingCarving.NORTHERN_CARVINGS_2);

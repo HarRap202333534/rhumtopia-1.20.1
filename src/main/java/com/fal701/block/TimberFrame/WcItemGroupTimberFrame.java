@@ -14,7 +14,7 @@ public class WcItemGroupTimberFrame {
 
     public static final ItemGroup TIMBERFRAME = FabricItemGroup.builder()
             .icon(() -> new ItemStack(TimberFrame.TIMBER_OAK_BROWN_CROSSHATCH))
-            .displayName(Text.translatable("itemGroup.westerosblocks.timberframe"))
+            .displayName(Text.translatable("itemGroup.WesterosTimberFrame"))
             .entries((context, entries) -> {
                 entries.add(TimberFrame.TIMBER_OAK_BROWN_CROSSHATCH);
                 entries.add(TimberFrame.TIMBER_OAK_BROWN_LEFTHATCH);

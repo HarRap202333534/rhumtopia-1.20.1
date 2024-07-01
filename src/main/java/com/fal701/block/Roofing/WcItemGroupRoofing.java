@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class WcItemGroupRoofing {
     public static final ItemGroup ROOFING = FabricItemGroup.builder()
             .icon(() -> new ItemStack(Roofing.BLACK_SLATE))
-            .displayName(Text.translatable("itemGroup.westerosblocks.roofing"))
+            .displayName(Text.translatable("itemGroup.WesterosRoofing"))
             .entries((context, entries) -> {
                 entries.add(Roofing.BLACK_SLATE);
                 entries.add(Roofing.BLACK_SLATE_STAIRS);

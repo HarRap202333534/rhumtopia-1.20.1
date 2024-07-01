@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class WcItemGroupCobblestone {
     public static final ItemGroup COBBLESTONE = FabricItemGroup.builder()
             .icon(() -> new ItemStack(Items.COBBLESTONE))
-            .displayName(Text.translatable("itemGroup.westerosblocks.cobblestone"))
+            .displayName(Text.translatable("itemGroup.WesterosCobblestone"))
             .entries((context, entries) -> {
                 entries.add(Cobblestone.FLAGSTONE);
                 entries.add(Cobblestone.SANDY_STONE_SLABS);

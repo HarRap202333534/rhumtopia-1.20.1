@@ -4,9 +4,11 @@ import com.fal701.block.Brick.Brick;
 import com.fal701.block.Fieldstone.Fieldstone;
 import com.fal701.block.HalfAshlar.HalfAshlar;
 import com.fal701.block.MediumAshlar.MediumAshlar;
+import com.fal701.block.Metal.Metal;
 import com.fal701.block.QuarterAshlar.QuarterAshlar;
 import com.fal701.block.SmoothAshlar.SmoothAshlar;
 import com.fal701.block.TimberFrame.TimberFrame;
+import com.fal701.block.WindowsGlass.WindowsGlass;
 import com.fal701.block.WoodPlanks.WoodPlanks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -537,5 +539,17 @@ public class RhumtopiaClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(WoodPlanks.BLUE_TIMBER_WINDOW_FRAME_MULLION, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(WoodPlanks.PURPLE_TIMBER_WINDOW_FRAME, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(WoodPlanks.PURPLE_TIMBER_WINDOW_FRAME_MULLION, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Metal.VERTICAL_CHAIN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Metal.IRON_BARS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Metal.IRON_CROSSBAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Metal.OXIDIZED_IRON_BARS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Metal.OXIDIZED_IRON_CROSSBAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Metal.HORIZONTAL_CHAIN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Metal.IRON_RUNGS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Metal.IRON_RUNGS_BROKEN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Metal.IRON_THRONE_RANDOM_BLADES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Metal.CHAIN_BLOCK_HARNESS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_RED, RenderLayer.getTranslucent());
+
     }
 }
