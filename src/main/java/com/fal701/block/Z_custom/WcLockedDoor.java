@@ -1,11 +1,12 @@
 package com.fal701.block.Z_custom;
 
-import com.fal701.block.*;
+import com.fal701.block.BlockStatecCustomEnum.FacingState;
+import com.fal701.block.BlockStatecCustomEnum.HalfState;
+import com.fal701.block.BlockStatecCustomEnum.HingeState;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.ShapeContext;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.state.StateManager;

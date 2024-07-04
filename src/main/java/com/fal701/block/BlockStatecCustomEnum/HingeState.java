@@ -1,13 +1,13 @@
-package com.fal701.block;
+package com.fal701.block.BlockStatecCustomEnum;
 
 import net.minecraft.util.StringIdentifiable;
 
-public enum HalfState implements StringIdentifiable {
-    UPPER("upper"),
-    LOWER("lower");
+public enum HingeState implements StringIdentifiable {
+    RIGHT("right"),
+    LEFT("left");
     private final String name;
 
-    private HalfState(String name) {
+    private HingeState(String name) {
         this.name = name;
     }
 

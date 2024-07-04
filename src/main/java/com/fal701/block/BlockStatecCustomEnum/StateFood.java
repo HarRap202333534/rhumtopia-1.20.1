@@ -1,17 +1,17 @@
-package com.fal701.block;
+package com.fal701.block.BlockStatecCustomEnum;
 
 import net.minecraft.util.StringIdentifiable;
 
-public enum HingeState implements StringIdentifiable {
-    RIGHT("right"),
-    LEFT("left");
+public enum StateFood implements StringIdentifiable {
+    FOOD("food"),
+    EMPTY("empty");
     private final String name;
 
-    private HingeState(String name) {
+    private StateFood(String name){
         this.name = name;
     }
 
-    public String toString() {
+    public String toString(){
         return this.name;
     }
 

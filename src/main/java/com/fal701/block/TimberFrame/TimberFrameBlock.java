@@ -1,6 +1,6 @@
 package com.fal701.block.TimberFrame;
 
-import com.fal701.block.StateEnum;
+import com.fal701.block.BlockStatecCustomEnum.StateEnum;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.LivingEntity;
@@ -12,11 +12,8 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.GameMode;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
-
-import java.util.Collection;
 
 public class TimberFrameBlock extends Block {
     public static final EnumProperty<StateEnum> STATE = EnumProperty.of("state", StateEnum.class);

@@ -1,7 +1,6 @@
 package com.fal701.block.Z_custom;
 
-import com.fal701.block.FacingState;
-import com.fal701.block.ShapeState;
+import com.fal701.block.BlockStatecCustomEnum.ShapeState;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalFacingBlock;

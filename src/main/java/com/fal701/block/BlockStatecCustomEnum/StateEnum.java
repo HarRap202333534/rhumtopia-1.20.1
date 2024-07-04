@@ -1,4 +1,4 @@
-package com.fal701.block;
+package com.fal701.block.BlockStatecCustomEnum;
 
 import net.minecraft.util.StringIdentifiable;
 

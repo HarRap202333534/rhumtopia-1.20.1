@@ -1,7 +1,9 @@
 package com.fal701;
 
 import com.fal701.block.Brick.Brick;
+import com.fal701.block.Decor.Decor;
 import com.fal701.block.Fieldstone.Fieldstone;
+import com.fal701.block.Furniture.Furniture;
 import com.fal701.block.HalfAshlar.HalfAshlar;
 import com.fal701.block.MediumAshlar.MediumAshlar;
 import com.fal701.block.Metal.Metal;
@@ -550,6 +552,64 @@ public class RhumtopiaClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Metal.IRON_THRONE_RANDOM_BLADES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Metal.CHAIN_BLOCK_HARNESS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_RED, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_BLACK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_ORANGE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_YELLOW, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_GREEN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_BLUE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_PURPLE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_PINK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_PANE_BLACK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_PANE_ORANGE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_PANE_YELLOW, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_PANE_GREEN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_PANE_BLUE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_PANE_PURPLE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_PANE_PINK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.STAINED_GLASS_PANE_RED, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.DORNE_CARVED_STONE_WINDOW, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(WindowsGlass.DORNE_CARVED_WOODEN_WINDOW, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.NOBLE_BLUE_BED, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.NOBLE_RED_BED, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.HAMMOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.DARK_GREY_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.DARK_GREY_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_DARK_GREY_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.STONE_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_STONE_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.LIGHT_GREY_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_LIGHT_GREY_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.REACH_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_REACH_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.DUN_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_DUN_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.OLDTOWN_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_OLDTOWN_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.SANDSTONE_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_SANDSTONE_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ARBOR_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_ARBOR_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.DORNISH_MUD_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_DORNISH_MUD_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ORANGE_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.SOUTHERN_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.ALWAYS_ACTIVE_SOUTHERN_BRICK_FURNACE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.STOOL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Furniture.STOOL_CUSHION, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.HORIZONTAL_PAPER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.GLASS_FLAGON, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.BROKEN_SWORD, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.BLOOD, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.BONES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.FRYING_PAN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.HORSE_SHOES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.COINS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.PEWTER_PLATE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.WOODEN_PLATE, RenderLayer.getCutout());
+
 
     }
 }
