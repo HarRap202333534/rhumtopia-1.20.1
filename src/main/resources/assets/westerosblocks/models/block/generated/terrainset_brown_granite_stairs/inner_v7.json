@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/brown_granite/brown_granite/7",
+    "top": "westerosblocks:block/terrainset/brown_granite/brown_granite/7",
+    "side": "westerosblocks:block/terrainset/brown_granite/brown_granite/7",
+    "particle": "westerosblocks:block/terrainset/brown_granite/brown_granite/7"
+  }
+}

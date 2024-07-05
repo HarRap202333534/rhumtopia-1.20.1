@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "westerosblocks:block/terrainset/brown_granite_alt/brown_granite_alt/10"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "westerosblocks:block/terrainset_eyrie/31",
+    "up": "westerosblocks:block/terrainset_eyrie/31",
+    "north": "westerosblocks:block/terrainset_eyrie/31",
+    "south": "westerosblocks:block/terrainset_eyrie/31",
+    "west": "westerosblocks:block/terrainset_eyrie/31",
+    "east": "westerosblocks:block/terrainset_eyrie/31",
+    "particle": "westerosblocks:block/terrainset_eyrie/31"
+  }
+}

@@ -16,29 +16,32 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 public class WcDirectionalSlab extends SlabBlock {
-    public static final EnumProperty<Direction.Axis> AXIS = Properties.AXIS;
+    public static final DirectionProperty FACING = Properties.FACING;
 
     public WcDirectionalSlab(Settings settings) {
         super(settings);
-        this.setDefaultState(this.getDefaultState().with(AXIS, Direction.Axis.X));
+        this.setDefaultState(this.getDefaultState().with(FACING, Direction.NORTH));
     }
 
 
     @Override
     public void onPlaced(World world, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack itemStack) {
-        if(placer.getHorizontalFacing().getAxis() == Direction.Axis.X){
-            world.setBlockState(pos, state.with(AXIS, Direction.Axis.X));
+        if(placer.getHorizontalFacing() == Direction.NORTH){
+            world.setBlockState(pos, state.with(FACING, Direction.NORTH));
         }
-        else if(placer.getHorizontalFacing().getAxis() == Direction.Axis.Z){
-            world.setBlockState(pos, state.with(AXIS, Direction.Axis.X));
+        else if(placer.getHorizontalFacing() == Direction.SOUTH){
+            world.setBlockState(pos, state.with(FACING, Direction.NORTH));
         }
-        else if(placer.getHorizontalFacing().getAxis() == Direction.Axis.Y){
-            world.setBlockState(pos, state.with(AXIS, Direction.Axis.Y));
+        else if(placer.getHorizontalFacing() == Direction.EAST){
+            world.setBlockState(pos, state.with(FACING, Direction.EAST));
+        }
+        else{
+            world.setBlockState(pos, state.with(FACING, Direction.EAST));
         }
     }
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(AXIS, TYPE, WATERLOGGED);
+        builder.add(FACING, TYPE, WATERLOGGED);
     }
 }

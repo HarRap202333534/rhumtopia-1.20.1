@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/upper_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/brown_granite/brown_granite/16",
+    "up": "westerosblocks:block/terrainset/brown_granite/brown_granite/16",
+    "north": "westerosblocks:block/terrainset/brown_granite/brown_granite/16",
+    "south":  "westerosblocks:block/terrainset/brown_granite/brown_granite/16",
+    "west": "westerosblocks:block/terrainset/brown_granite/brown_granite/16",
+    "east": "westerosblocks:block/terrainset/brown_granite/brown_granite/16",
+    "particle": "westerosblocks:block/terrainset/brown_granite/brown_granite/16"
+  }
+}

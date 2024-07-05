@@ -31,7 +31,39 @@ public class WcItemGroupDecor {
                 entries.add(Decor.PEWTER_PLATE);
                 entries.add(Decor.WOODEN_PLATE);
                 entries.add(Decor.HORSE_SHOES);
-
+                entries.add(Decor.CRATE3);
+                entries.add(Decor.OPEN_CRATE);
+                entries.add(Decor.IRON_CRATE);
+                entries.add(Decor.WATER_BARREL);
+                entries.add(Decor.EMPTY_BARREL);
+                entries.add(Decor.SILVER_TIN_CRATE);
+                entries.add(Decor.FISH_TRAP);
+                entries.add(Decor.CAGE);
+                entries.add(Decor.COBWEB);
+                entries.add(Decor.CLOSED_BASKET);
+                entries.add(Decor.OPEN_BASKET);
+                entries.add(Decor.CLOSED_BASKET_SLAB);
+                entries.add(Decor.OPEN_BASKET_SLAB);
+                entries.add(Decor.SEPT_CRYSTAL_MEDIUM);
+                entries.add(Decor.SEPT_CRYSTAL_SMALL);
+                entries.add(Decor.BAELORS_SPHERE_CRONE_YELLOW);
+                entries.add(Decor.BAELORS_SPHERE_FATHER_GREEN);
+                entries.add(Decor.BAELORS_SPHERE_MAIDEN_PINK);
+                entries.add(Decor.BAELORS_SPHERE_MOTHER_BLUE);
+                entries.add(Decor.BAELORS_SPHERE_SMITH_ORANGE);
+                entries.add(Decor.BAELORS_SPHERE_STRANGER_GREY);
+                entries.add(Decor.BAELORS_SPHERE_WARRIOR_RED);
+                entries.add(Decor.SEWER_MANHOLE);
+                entries.add(Decor.KINGS_LANDING_SEWER_MANHOLE);
+                entries.add(Decor.WHITE_ARBOR_SEWER_MANHOLE);
+                entries.add(Decor.OLDTOWN_SEWER_MANHOLE);
+                entries.add(Decor.LARGE_CLAY_POT_SOLID);
+                entries.add(Decor.LARGE_CLAY_POT);
+                entries.add(Decor.AXE_BLOCK);
+                entries.add(Decor.CLEAVER_BLOCK);
+                entries.add(Decor.DAGGER_BLOCK);
+                entries.add(Decor.PICKAXE_BLOCK);
+                entries.add(Decor.SHOVEL_BLOCK);
             }).build();
 
 

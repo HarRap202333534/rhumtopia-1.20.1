@@ -5,10 +5,12 @@ import com.fal701.block.Decor.Decor;
 import com.fal701.block.Fieldstone.Fieldstone;
 import com.fal701.block.Furniture.Furniture;
 import com.fal701.block.HalfAshlar.HalfAshlar;
+import com.fal701.block.Lighting.Lighting;
 import com.fal701.block.MediumAshlar.MediumAshlar;
 import com.fal701.block.Metal.Metal;
 import com.fal701.block.QuarterAshlar.QuarterAshlar;
 import com.fal701.block.SmoothAshlar.SmoothAshlar;
+import com.fal701.block.TerrainSet.TerrainSet;
 import com.fal701.block.TimberFrame.TimberFrame;
 import com.fal701.block.WindowsGlass.WindowsGlass;
 import com.fal701.block.WoodPlanks.WoodPlanks;
@@ -608,7 +610,32 @@ public class RhumtopiaClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Decor.HORSE_SHOES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Decor.COINS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Decor.PEWTER_PLATE, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(Decor.WOODEN_PLATE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.BAELORS_SPHERE_CRONE_YELLOW, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.BAELORS_SPHERE_FATHER_GREEN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.BAELORS_SPHERE_MAIDEN_PINK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.BAELORS_SPHERE_MOTHER_BLUE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.BAELORS_SPHERE_SMITH_ORANGE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.BAELORS_SPHERE_STRANGER_GREY, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.BAELORS_SPHERE_WARRIOR_RED, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.SEPT_CRYSTAL_MEDIUM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.SEPT_CRYSTAL_SMALL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.FISH_TRAP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.CAGE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.COBWEB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Lighting.CANDLE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Lighting.TORCH, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Lighting.CANDLE_ALTAR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Lighting.BRAZIER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Lighting.BRAZIER2, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Lighting.LANTERN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Lighting.RED_LANTERN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.AXE_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.CLEAVER_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.DAGGER_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.PICKAXE_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Decor.SHOVEL_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.TERRAINSET_EASTERN_ISLANDS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.TERRAINSET_THE_NORTH, RenderLayer.getCutout());
 
 
     }

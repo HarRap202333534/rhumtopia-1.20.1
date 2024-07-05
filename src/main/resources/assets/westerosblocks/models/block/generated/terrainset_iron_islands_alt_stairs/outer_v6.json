@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/iron_alt/iron_alt/6",
+    "top": "westerosblocks:block/terrainset/iron_alt/iron_alt/6",
+    "side": "westerosblocks:block/terrainset/iron_alt/iron_alt/6",
+    "particle": "westerosblocks:block/terrainset/iron_alt/iron_alt/6"
+  }
+}

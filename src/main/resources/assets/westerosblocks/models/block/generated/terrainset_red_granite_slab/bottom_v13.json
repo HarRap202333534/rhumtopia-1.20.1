@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/half_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/red_granite/red_granite/13",
+    "up": "westerosblocks:block/terrainset/red_granite/red_granite/13",
+    "north": "westerosblocks:block/terrainset/red_granite/red_granite/13",
+    "south":  "westerosblocks:block/terrainset/red_granite/red_granite/13",
+    "west": "westerosblocks:block/terrainset/red_granite/red_granite/13",
+    "east": "westerosblocks:block/terrainset/red_granite/red_granite/13",
+    "particle": "westerosblocks:block/terrainset/red_granite/red_granite/13"
+  }
+}

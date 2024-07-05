@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/upper_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/north_alt/north_alt/8",
+    "up": "westerosblocks:block/terrainset/north_alt/north_alt/8",
+    "north": "westerosblocks:block/terrainset/north_alt/north_alt/8",
+    "south":  "westerosblocks:block/terrainset/north_alt/north_alt/8",
+    "west": "westerosblocks:block/terrainset/north_alt/north_alt/8",
+    "east": "westerosblocks:block/terrainset/north_alt/north_alt/8",
+    "particle": "westerosblocks:block/terrainset/north_alt/north_alt/8"
+  }
+}

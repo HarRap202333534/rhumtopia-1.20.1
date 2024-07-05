@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/iron_alt/iron_alt/8",
+    "top": "westerosblocks:block/terrainset/iron_alt/iron_alt/8",
+    "side": "westerosblocks:block/terrainset/iron_alt/iron_alt/8",
+    "particle": "westerosblocks:block/terrainset/iron_alt/iron_alt/8"
+  }
+}
