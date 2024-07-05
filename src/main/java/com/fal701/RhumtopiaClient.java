@@ -636,6 +636,34 @@ public class RhumtopiaClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Decor.SHOVEL_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.TERRAINSET_EASTERN_ISLANDS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.TERRAINSET_THE_NORTH, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.GOLD_ORE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.GOLD_ORE_SLAB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.GOLD_ORE_WALL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.GOLD_ORE_STAIRS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.IRON_ORE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.IRON_ORE_SLAB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.IRON_ORE_STAIRS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.IRON_ORE_WALL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.SILVER_ORE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.SILVER_ORE_SLAB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.SILVER_ORE_STAIRS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.SILVER_ORE_WALL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.TIN_ORE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.TIN_ORE_SLAB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.TIN_ORE_STAIRS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.TIN_ORE_WALL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COAL_ORE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COAL_ORE_STAIRS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COAL_ORE_SLAB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COAL_ORE_WALL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COPPER_ORE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COPPER_ORE_SLAB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COPPER_ORE_STAIRS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COPPER_ORE_WALL, RenderLayer.getCutout());
+
+
+
+
 
 
     }
