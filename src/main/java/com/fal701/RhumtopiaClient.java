@@ -4,6 +4,7 @@ import com.fal701.block.Brick.Brick;
 import com.fal701.block.Decor.Decor;
 import com.fal701.block.Fieldstone.Fieldstone;
 import com.fal701.block.Furniture.Furniture;
+import com.fal701.block.GrassDirt.GrassDirt;
 import com.fal701.block.HalfAshlar.HalfAshlar;
 import com.fal701.block.Lighting.Lighting;
 import com.fal701.block.MediumAshlar.MediumAshlar;
@@ -660,7 +661,12 @@ public class RhumtopiaClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COPPER_ORE_SLAB, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COPPER_ORE_STAIRS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(TerrainSet.COPPER_ORE_WALL, RenderLayer.getCutout());
-
+        BlockRenderLayerMap.INSTANCE.putBlock(GrassDirt.CLASSIC_GRASS_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrassDirt.THICK_GRASS_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrassDirt.PINE_NEEDLES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrassDirt.PINE_NEEDLES_SLAB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrassDirt.FALLEN_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrassDirt.FALLEN_LEAVES_SLAB, RenderLayer.getCutout());
 
 
 
