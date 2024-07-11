@@ -15,8 +15,8 @@ public class Decor {
     public static final Block HORIZONTAL_PAPER = registerBlock("horizontal_paper", new WcHorizontalPaper(FabricBlockSettings.copyOf(Blocks.WHITE_CARPET).nonOpaque()));
     public static final Block PEWTER_FLAGON = registerBlock("pewter_flagon", new WcFlacon(FabricBlockSettings.copyOf(Blocks.GLASS)));
 
-    public static final Block CLOSED_BARREL = registerBlock("closed_barrel", new WcDirectionalBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
-    public static final Block FIREWOOD = registerBlock("firewood", new WcDirectionalBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block CLOSED_BARREL = registerBlock("closed_barrel", new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block FIREWOOD = registerBlock("firewood", new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block FIREWOOD_SLAB = registerBlock("firewood_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block FIREWOOD_DIRECTIONAL_SLAB = registerBlock("firewood_directional_slab", new WcDirectionalSlab(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block BROKEN_SWORD = registerBlock("broken_sword", new WcDecor2Facing(FabricBlockSettings.copyOf(Blocks.WHITE_CARPET).nonOpaque()));

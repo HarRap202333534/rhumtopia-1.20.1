@@ -8,6 +8,8 @@ import com.fal701.block.Decor.Decor;
 import com.fal701.block.Decor.WcItemGroupDecor;
 import com.fal701.block.Fieldstone.Fieldstone;
 import com.fal701.block.Fieldstone.WcItemGroupFieldstone;
+import com.fal701.block.FoodBlocks.FoodBlocks;
+import com.fal701.block.FoodBlocks.WcItemGroupFoodBlocks;
 import com.fal701.block.Furniture.Furniture;
 import com.fal701.block.Furniture.WcItemGroupFurniture;
 import com.fal701.block.GrassDirt.GrassDirt;
@@ -16,6 +18,8 @@ import com.fal701.block.HalfAshlar.HalfAshlar;
 import com.fal701.block.HalfAshlar.WcItemGroupHalfAshlar;
 import com.fal701.block.Lighting.Lighting;
 import com.fal701.block.Lighting.WcItemGroupLighting;
+import com.fal701.block.Logs.Logs;
+import com.fal701.block.Logs.WcItemGroupLogs;
 import com.fal701.block.MarbleAndPlaster.MarblePlaster;
 import com.fal701.block.MarbleAndPlaster.WcItemGroupMarblePlaster;
 import com.fal701.block.MediumAshlar.MediumAshlar;
@@ -74,6 +78,8 @@ public class Rhumtopia implements ModInitializer {
 		TerrainSet.registerModBlocks();
 		SandGravel.registerModBlocks();
 		GrassDirt.registerModBlocks();
+		Logs.registerModBlocks();
+		FoodBlocks.registerModBlocks();
 
 		WcItemGroupCobblestone.registerItemGroups();
 		WcItemGroupFieldstone.registerItemGroups();
@@ -95,6 +101,8 @@ public class Rhumtopia implements ModInitializer {
 		WcItemGroupTerrainSet.registerItemGroups();
 		WcItemGroupSandGravel.registerItemGroups();
 		WcItemGroupGrassDirt.registerItemGroups();
+		WcItemGroupLogs.registerItemGroups();
+		WcItemGroupFoodBlocks.registerItemGroups();
 
 		WcBlockEntities.registerBlockEntities();
 	}

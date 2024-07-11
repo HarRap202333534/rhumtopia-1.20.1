@@ -23,14 +23,14 @@ public class WcDirectionalBlock extends Block {
 
     @Override
     public void onPlaced(World world, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack itemStack) {
-        if(placer.getHorizontalFacing().getAxis() == Direction.Axis.X){
-            world.setBlockState(pos, state.with(AXIS, Direction.Axis.X));
+        if(placer.getHorizontalFacing() == Direction.DOWN || placer.getHorizontalFacing() == Direction.UP){
+            world.setBlockState(pos, state.with(AXIS, Direction.Axis.Y));
         }
         else if(placer.getHorizontalFacing().getAxis() == Direction.Axis.Z){
-            world.setBlockState(pos, state.with(AXIS, Direction.Axis.X));
+            world.setBlockState(pos, state.with(AXIS, Direction.Axis.Z));
         }
-        else if(placer.getHorizontalFacing().getAxis() == Direction.Axis.Y){
-            world.setBlockState(pos, state.with(AXIS, Direction.Axis.Y));
+        else if(placer.getHorizontalFacing().getAxis() == Direction.Axis.X){
+            world.setBlockState(pos, state.with(AXIS, Direction.Axis.X));
         }
     }
 
