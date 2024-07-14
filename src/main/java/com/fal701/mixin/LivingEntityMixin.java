@@ -1,7 +1,9 @@
 package com.fal701.mixin;
 
+import com.fal701.block.Foliage.Foliage;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LadderBlock;
+import net.minecraft.block.VineBlock;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.util.math.BlockPos;
 import org.spongepowered.asm.mixin.Mixin;
@@ -25,7 +27,10 @@ public class LivingEntityMixin {
 		BlockPos pos = self.getBlockPos();
 		BlockState state = self.getBlockStateAtPos();
 
-		boolean onLadder = state.getBlock() instanceof LadderBlock;
+		boolean onLadder = state.getBlock() instanceof LadderBlock || state.getBlock() instanceof VineBlock;
+		if(state.getBlock() == Foliage.DAPPLED_MOSS){
+			onLadder = false;
+		}
 
 		if(onLadder) {
 			climbingPos = Optional.of(pos);

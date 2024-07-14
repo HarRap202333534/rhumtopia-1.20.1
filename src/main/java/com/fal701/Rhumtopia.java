@@ -2,18 +2,26 @@ package com.fal701;
 
 import com.fal701.block.Brick.Brick;
 import com.fal701.block.Brick.WcItemGroupBrick;
+import com.fal701.block.ClothFibers.ClothFibers;
+import com.fal701.block.ClothFibers.WcItemGroupClothFibers;
 import com.fal701.block.Cobblestone.Cobblestone;
 import com.fal701.block.Cobblestone.WcItemGroupCobblestone;
 import com.fal701.block.Decor.Decor;
 import com.fal701.block.Decor.WcItemGroupDecor;
 import com.fal701.block.Fieldstone.Fieldstone;
 import com.fal701.block.Fieldstone.WcItemGroupFieldstone;
+import com.fal701.block.Flowers.Flowers;
+import com.fal701.block.Flowers.WcItemGroupFlowers;
+import com.fal701.block.Foliage.Foliage;
+import com.fal701.block.Foliage.WcItemGroupFoliage;
 import com.fal701.block.FoodBlocks.FoodBlocks;
 import com.fal701.block.FoodBlocks.WcItemGroupFoodBlocks;
 import com.fal701.block.Furniture.Furniture;
 import com.fal701.block.Furniture.WcItemGroupFurniture;
 import com.fal701.block.GrassDirt.GrassDirt;
 import com.fal701.block.GrassDirt.WcItemGroupGrassDirt;
+import com.fal701.block.GrassesShrubs.GrassesShrubs;
+import com.fal701.block.GrassesShrubs.WcItemGroupGrassesShrubs;
 import com.fal701.block.HalfAshlar.HalfAshlar;
 import com.fal701.block.HalfAshlar.WcItemGroupHalfAshlar;
 import com.fal701.block.Lighting.Lighting;
@@ -80,6 +88,10 @@ public class Rhumtopia implements ModInitializer {
 		GrassDirt.registerModBlocks();
 		Logs.registerModBlocks();
 		FoodBlocks.registerModBlocks();
+		ClothFibers.registerModBlocks();
+		Foliage.registerModBlocks();
+		GrassesShrubs.registerModBlocks();
+		Flowers.registerModBlocks();
 
 		WcItemGroupCobblestone.registerItemGroups();
 		WcItemGroupFieldstone.registerItemGroups();
@@ -103,6 +115,10 @@ public class Rhumtopia implements ModInitializer {
 		WcItemGroupGrassDirt.registerItemGroups();
 		WcItemGroupLogs.registerItemGroups();
 		WcItemGroupFoodBlocks.registerItemGroups();
+		WcItemGroupClothFibers.registerItemGroups();
+		WcItemGroupFoliage.registerItemGroups();
+		WcItemGroupGrassesShrubs.registerItemGroups();
+		WcItemGroupFlowers.registerItemGroups();
 
 		WcBlockEntities.registerBlockEntities();
 	}

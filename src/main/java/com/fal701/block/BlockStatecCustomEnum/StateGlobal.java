@@ -28,7 +28,10 @@ public enum  StateGlobal implements StringIdentifiable {
     COBWEB7("cobweb7"),
     COBWEB8("cobweb8"),
     LIT("lit"),
-    UNLIT("unlit");
+    UNLIT("unlit"),
+    CLOTHES1("clothes1"),
+    CLOTHES2("clothes2"),
+    CLOTHES3("clothes3");
 
 
     private final String name;
