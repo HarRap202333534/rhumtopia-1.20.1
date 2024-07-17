@@ -15,16 +15,16 @@ public class WindowsGlass {
 
     public static final Block SEPT_CRYSTAL_LARGE = registerBlock("sept_crystal_large", new Block(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
     public static final Block COLOURED_SEPT_WINDOW = registerBlock("coloured_sept_window", new Block(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
-    public static final Block OAK_WINDOW_SHUTTERS = registerBlock("oak_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
-    public static final Block SPRUCE_WINDOW_SHUTTERS = registerBlock("spruce_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
-    public static final Block BIRCH_WINDOW_SHUTTERS = registerBlock("birch_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
-    public static final Block JUNGLE_WINDOW_SHUTTERS = registerBlock("jungle_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
-    public static final Block NORTHERN_WOOD_WINDOW_SHUTTERS = registerBlock("northern_wood_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
-    public static final Block GREY_WOOD_WINDOW_SHUTTERS = registerBlock("grey_wood_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
-    public static final Block WHITE_WOOD_WINDOW_SHUTTERS = registerBlock("white_wood_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
-    public static final Block DORNE_RED_WINDOW_SHUTTERS = registerBlock("dorne_red_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
-    public static final Block GREEN_LANNISPORT_WINDOW_SHUTTERS = registerBlock("green_lannisport_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
-    public static final Block REACH_BLUE_WINDOW_SHUTTERS = registerBlock("reach_blue_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
+    public static final Block OAK_WINDOW_SHUTTERS = registerBlock("oak_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+    public static final Block SPRUCE_WINDOW_SHUTTERS = registerBlock("spruce_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+    public static final Block BIRCH_WINDOW_SHUTTERS = registerBlock("birch_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+    public static final Block JUNGLE_WINDOW_SHUTTERS = registerBlock("jungle_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+    public static final Block NORTHERN_WOOD_WINDOW_SHUTTERS = registerBlock("northern_wood_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+    public static final Block GREY_WOOD_WINDOW_SHUTTERS = registerBlock("grey_wood_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+    public static final Block WHITE_WOOD_WINDOW_SHUTTERS = registerBlock("white_wood_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+    public static final Block DORNE_RED_WINDOW_SHUTTERS = registerBlock("dorne_red_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+    public static final Block GREEN_LANNISPORT_WINDOW_SHUTTERS = registerBlock("green_lannisport_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+    public static final Block REACH_BLUE_WINDOW_SHUTTERS = registerBlock("reach_blue_window_shutters", new WcShutter(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
     public static final Block DORNE_CARVED_WOODEN_WINDOW = registerBlock("dorne_carved_wooden_window", new PaneBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block DORNE_CARVED_STONE_WINDOW = registerBlock("dorne_carved_stone_window", new PaneBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
     public static final Block STAINED_GLASS_RED = registerBlock("stained_glass_red", new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)));

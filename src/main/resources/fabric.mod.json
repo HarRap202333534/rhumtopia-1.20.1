@@ -3,9 +3,10 @@
 	"id": "westerosblocks",
 	"version": "${version}",
 	"name": "Rhumtopia",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Unofficial port to 1.20.1 fabric of the 1.18 forge WesterosBlocks mod.",
 	"authors": [
-		"Me!"
+		"Flabustibule",
+		"Faloral"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

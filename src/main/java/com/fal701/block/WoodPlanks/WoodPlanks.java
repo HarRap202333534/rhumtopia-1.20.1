@@ -59,7 +59,7 @@ public class WoodPlanks {
     public static final Block OAK_TIP = registerBlock("oak_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block OAK_CARPET = registerBlock("oak_carpet", new CarpetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block LOCKED_OAK_FENCE_GATE = registerBlock("locked_oak_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), TYPE2));
-    public static final Block OAK_COVER = registerBlock("oak_cover", new RailBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block OAK_COVER = registerBlock("oak_cover", new WcRail(true,FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block OAK_TIMBER_WINDOW_FRAME = registerBlock("oak_timber_window_frame", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block OAK_TIMBER_WINDOW_FRAME_MULLION = registerBlock("oak_timber_window_frame_mullion", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
@@ -72,7 +72,7 @@ public class WoodPlanks {
     public static final Block SPRUCE_TIP = registerBlock("spruce_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block SPRUCE_CARPET = registerBlock("spruce_carpet", new CarpetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block LOCKED_SPRUCE_FENCE_GATE = registerBlock("locked_spruce_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), TYPE2));
-    public static final Block SPRUCE_COVER = registerBlock("spruce_cover", new RailBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block SPRUCE_COVER = registerBlock("spruce_cover", new WcRail(true, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block SPRUCE_TIMBER_WINDOW_FRAME = registerBlock("spruce_timber_window_frame", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block SPRUCE_TIMBER_WINDOW_FRAME_MULLION = registerBlock("spruce_timber_window_frame_mullion", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
@@ -85,7 +85,7 @@ public class WoodPlanks {
     public static final Block BIRCH_TIP = registerBlock("birch_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block BIRCH_CARPET = registerBlock("birch_carpet", new CarpetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block LOCKED_BIRCH_FENCE_GATE = registerBlock("locked_birch_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), TYPE2));
-    public static final Block BIRCH_COVER = registerBlock("birch_cover", new RailBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block BIRCH_COVER = registerBlock("birch_cover", new WcRail(true, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block BIRCH_TIMBER_WINDOW_FRAME = registerBlock("birch_timber_window_frame", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block BIRCH_TIMBER_WINDOW_FRAME_MULLION = registerBlock("birch_timber_window_frame_mullion", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
@@ -98,7 +98,7 @@ public class WoodPlanks {
     public static final Block JUNGLE_TIP = registerBlock("jungle_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block JUNGLE_CARPET = registerBlock("jungle_carpet", new CarpetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block LOCKED_JUNGLE_FENCE_GATE = registerBlock("locked_jungle_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), TYPE2));
-    public static final Block JUNGLE_COVER = registerBlock("jungle_cover", new RailBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block JUNGLE_COVER = registerBlock("jungle_cover", new WcRail(true, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block JUNGLE_TIMBER_WINDOW_FRAME = registerBlock("jungle_timber_window_frame", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block JUNGLE_TIMBER_WINDOW_FRAME_MULLION = registerBlock("jungle_timber_window_frame_mullion", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
@@ -111,7 +111,7 @@ public class WoodPlanks {
     public static final Block DARK_NORTHERN_WOOD_TIP = registerBlock("dark_northern_wood_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block DARK_NORTHERN_WOOD_CARPET = registerBlock("dark_northern_wood_carpet", new CarpetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block LOCKED_DARK_NORTHERN_WOOD_FENCE_GATE = registerBlock("locked_dark_northern_wood_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), TYPE2));
-    public static final Block NORTHERN_WOOD_COVER = registerBlock("northern_wood_cover", new RailBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block NORTHERN_WOOD_COVER = registerBlock("northern_wood_cover", new WcRail(true, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block NORTHERN_TIMBER_WINDOW_FRAME = registerBlock("northern_timber_window_frame", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block NORTHERN_TIMBER_WINDOW_FRAME_MULLION = registerBlock("northern_timber_window_frame_mullion", new WcArrowSlit(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 

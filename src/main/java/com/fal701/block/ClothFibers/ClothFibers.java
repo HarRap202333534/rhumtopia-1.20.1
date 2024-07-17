@@ -17,10 +17,10 @@ public class ClothFibers {
     public static final Block ROPE_BLOCK_HARNESS = registerBlock("rope_block_harness", new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque().noCollision()));
     public static final Block ROPE_LADDER = registerBlock("rope_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque()));
     public static final Block VERTICAL_NET = registerBlock("vertical_net", new PaneBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
-    public static final Block HORIZONTAL_ROPE = registerBlock("horizontal_rope", new RailBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
-    public static final Block HORIZONTAL_NET = registerBlock("horizontal_net", new RailBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
-    public static final Block FANCY_RED_CARPET = registerBlock("fancy_red_carpet", new RailBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
-    public static final Block FANCY_BLUE_CARPET = registerBlock("fancy_blue_carpet", new RailBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
+    public static final Block HORIZONTAL_ROPE = registerBlock("horizontal_rope", new WcRail(false, FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
+    public static final Block HORIZONTAL_NET = registerBlock("horizontal_net", new WcRail(true, FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
+    public static final Block FANCY_RED_CARPET = registerBlock("fancy_red_carpet", new WcRail(true, FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
+    public static final Block FANCY_BLUE_CARPET = registerBlock("fancy_blue_carpet", new WcRail(true, FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
     public static final Block BLACK_WOOL = registerBlock("black_wool", new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block BLACK_WOOL_STAIRS = registerBlock("black_wool_stairs", new StairsBlock(ClothFibers.BLACK_WOOL.getDefaultState(), FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block BLACK_WOOL_SLAB = registerBlock("black_wool_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));

@@ -76,21 +76,29 @@ public class SandGravel {
     public static final Block PEBBLES_DRY_BROWN_GRANITE = registerBlock("pebbles_dry_brown_granite", new GravelBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL)));
     public static final Block PEBBLES_DRY_BROWN_GRANITE_LAYER = registerBlock("pebbles_dry_brown_granite_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL)));
     public static final Block TERRACOTTA_SAND = registerBlock("terracotta_sand", new SandBlock(0, FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block TERRACOTTA_SAND_LAYER = registerBlock("terracotta_sand_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block WET_SAND_STONES = registerBlock("wet_sand_stones", new SandBlock(0, FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block WET_SAND_STONES_LAYER = registerBlock("wet_sand_stones_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block PINKORANGE_SAND = registerBlock("pinkorange_sand", new SandBlock(0, FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block PINKORANGE_SAND_LAYER = registerBlock("pinkorange_sand_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block VOLCANIC_SAND = registerBlock("volcanic_sand", new SandBlock(0, FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block VOLCANIC_SAND_LAYER = registerBlock("volcanic_sand_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block RED_SAND = registerBlock("red_sand", new SandBlock(0, FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block RED_SAND_LAYER = registerBlock("red_sand_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block DESERT_SAND = registerBlock("desert_sand", new SandBlock(0, FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block DESERT_SAND_LAYER = registerBlock("desert_sand_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block SAND_STONES = registerBlock("sand_stones", new SandBlock(0, FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block SAND_STONES_LAYER = registerBlock("sand_stones_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block WET_SAND = registerBlock("wet_sand", new SandBlock(0, FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block WET_SAND_LAYER = registerBlock("wet_sand_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block VOLCANIC_SAND_STONES = registerBlock("volcanic_sand_stones", new SandBlock(0, FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block VOLCANIC_SAND_STONES_LAYER = registerBlock("volcanic_sand_stones_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block MUDDY_SAND = registerBlock("muddy_sand", new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
     public static final Block MUDDY_SAND_SLAB = registerBlock("muddy_sand_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.DIRT)));
     public static final Block MUDDY_SAND_LAYER = registerBlock("muddy_sand_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.DIRT)));
     public static final Block GRASSY_SAND = registerBlock("grassy_sand", new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
     public static final Block GRASSY_SAND_SLAB = registerBlock("grassy_sand_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.DIRT)));
     public static final Block GRASSY_SAND_LAYER = registerBlock("grassy_sand_layer", new SnowBlock(FabricBlockSettings.copyOf(Blocks.DIRT)));
-
 
 
     private static Block registerBlock(String name, Block block) {

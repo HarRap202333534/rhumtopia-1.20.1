@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class Metal {
     public static final Block VERTICAL_CHAIN = registerBlock("vertical_chain", new Block(FabricBlockSettings.copyOf(Blocks.CHAIN).nonOpaque().noCollision()));
-    public static final Block HORIZONTAL_CHAIN = registerBlock("horizontal_chain", new RailBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).nonOpaque().noCollision()));
+    public static final Block HORIZONTAL_CHAIN = registerBlock("horizontal_chain", new WcRail(false, FabricBlockSettings.copyOf(Blocks.CHAIN).nonOpaque().noCollision()));
     public static final Block IRON_RUNGS = registerBlock("iron_rungs", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque()));
     public static final Block IRON_RUNGS_BROKEN = registerBlock("iron_rungs_broken", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque()));
 

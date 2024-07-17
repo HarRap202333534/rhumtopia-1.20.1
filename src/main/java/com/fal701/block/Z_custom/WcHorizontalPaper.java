@@ -10,6 +10,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.EnumProperty;
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
@@ -19,7 +20,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class WcHorizontalPaper extends HorizontalFacingBlock {
 
-    public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
+    public static final DirectionProperty FACING = Properties.FACING;
     public static final EnumProperty<StateStatePaper> STATE = EnumProperty.of("state", StateStatePaper.class);
 
     public WcHorizontalPaper(Settings settings) {

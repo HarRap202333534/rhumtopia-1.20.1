@@ -35,7 +35,6 @@ public class WcShutter extends Block {
     public static final BooleanProperty OPEN;
     public static final EnumProperty<DoorHinge> HINGE;
     public static final BooleanProperty POWERED;
-    public static final EnumProperty<BlockHalf> HALF;
     protected static final float field_31083 = 3.0F;
     protected static final VoxelShape NORTH_SHAPE;
     protected static final VoxelShape SOUTH_SHAPE;
@@ -46,7 +45,7 @@ public class WcShutter extends Block {
     public WcShutter(Settings settings, BlockSetType blockSetType) {
         super(settings);
         this.blockSetType = blockSetType;
-        this.setDefaultState((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(FACING, Direction.NORTH)).with(OPEN, false)).with(HINGE, DoorHinge.LEFT)).with(POWERED, false)).with(HALF, BlockHalf.BOTTOM));
+        this.setDefaultState((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(FACING, Direction.NORTH)).with(OPEN, false)).with(HINGE, DoorHinge.LEFT)).with(POWERED, false)));
 
     }
 
@@ -71,17 +70,13 @@ public class WcShutter extends Block {
         }
     }
 
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
-        BlockHalf blockHalf = (BlockHalf)state.get(HALF);
-        if (direction.getAxis() == Direction.Axis.Y && blockHalf == blockHalf.BOTTOM == (direction == Direction.UP)) {
-            return neighborState.isOf(this) && neighborState.get(HALF) != blockHalf ? (BlockState)((BlockState)((BlockState)((BlockState)state.with(FACING, (Direction)neighborState.get(FACING))).with(OPEN, (Boolean)neighborState.get(OPEN))).with(HINGE, (DoorHinge)neighborState.get(HINGE))).with(POWERED, (Boolean)neighborState.get(POWERED)) : Blocks.AIR.getDefaultState();
-        } else {
-            return blockHalf == blockHalf.BOTTOM && direction == Direction.DOWN && !state.canPlaceAt(world, pos) ? Blocks.AIR.getDefaultState() : super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
-        }
-    }
-
     public void onBreak(World world, BlockPos pos, BlockState state, PlayerEntity player) {
         super.onBreak(world, pos, state, player);
+    }
+
+    @Override
+    public boolean canReplace(BlockState state, ItemPlacementContext context) {
+        return true;
     }
 
     public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
@@ -103,7 +98,7 @@ public class WcShutter extends Block {
         World world = ctx.getWorld();
         if (blockPos.getY() < world.getTopY() - 1 && world.getBlockState(blockPos.up()).canReplace(ctx)) {
             boolean bl = world.isReceivingRedstonePower(blockPos) || world.isReceivingRedstonePower(blockPos.up());
-            return (BlockState)((BlockState)((BlockState)((BlockState)((BlockState)this.getDefaultState().with(FACING, ctx.getHorizontalPlayerFacing())).with(HINGE, this.getHinge(ctx))).with(POWERED, bl)).with(OPEN, bl)).with(HALF, BlockHalf.BOTTOM);
+            return (BlockState)((BlockState)((BlockState)((BlockState)((BlockState)this.getDefaultState().with(FACING, ctx.getHorizontalPlayerFacing().getOpposite())).with(HINGE, this.getHinge(ctx))).with(POWERED, bl)).with(OPEN, bl));
         } else {
             return null;
         }
@@ -129,10 +124,8 @@ public class WcShutter extends Block {
         BlockPos blockPos6 = blockPos2.offset(direction3);
         BlockState blockState4 = blockView.getBlockState(blockPos6);
         int i = (blockState.isFullCube(blockView, blockPos3) ? -1 : 0) + (blockState2.isFullCube(blockView, blockPos4) ? -1 : 0) + (blockState3.isFullCube(blockView, blockPos5) ? 1 : 0) + (blockState4.isFullCube(blockView, blockPos6) ? 1 : 0);
-        boolean bl = blockState.isOf(this) && blockState.get(HALF) == BlockHalf.BOTTOM;
-        boolean bl2 = blockState3.isOf(this) && blockState3.get(HALF) == BlockHalf.BOTTOM;
-        if ((!bl || bl2) && i <= 0) {
-            if ((!bl2 || bl) && i >= 0) {
+        if (i <= 0) {
+            if (i >= 0) {
                 int j = direction.getOffsetX();
                 int k = direction.getOffsetZ();
                 Vec3d vec3d = ctx.getHitPos();
@@ -171,25 +164,6 @@ public class WcShutter extends Block {
         }
     }
 
-    public void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, BlockPos sourcePos, boolean notify) {
-        boolean bl = world.isReceivingRedstonePower(pos) || world.isReceivingRedstonePower(pos.offset(state.get(HALF) == BlockHalf.BOTTOM ? Direction.UP : Direction.DOWN));
-        if (!this.getDefaultState().isOf(sourceBlock) && bl != (Boolean)state.get(POWERED)) {
-            if (bl != (Boolean)state.get(OPEN)) {
-                this.playOpenCloseSound((Entity)null, world, pos, bl);
-                world.emitGameEvent((Entity)null, bl ? GameEvent.BLOCK_OPEN : GameEvent.BLOCK_CLOSE, pos);
-            }
-
-            world.setBlockState(pos, (BlockState)((BlockState)state.with(POWERED, bl)).with(OPEN, bl), 2);
-        }
-
-    }
-
-    public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
-        BlockPos blockPos = pos.down();
-        BlockState blockState = world.getBlockState(blockPos);
-        return state.get(HALF) == BlockHalf.BOTTOM ? blockState.isSideSolidFullSquare(world, blockPos, Direction.UP) : blockState.isOf(this);
-    }
-
     private void playOpenCloseSound(@Nullable Entity entity, World world, BlockPos pos, boolean open) {
         world.playSound(entity, pos, open ? this.blockSetType.doorOpen() : this.blockSetType.doorClose(), SoundCategory.BLOCKS, 1.0F, world.getRandom().nextFloat() * 0.1F + 0.9F);
     }
@@ -202,12 +176,10 @@ public class WcShutter extends Block {
         return mirror == BlockMirror.NONE ? state : (BlockState)state.rotate(mirror.getRotation((Direction)state.get(FACING))).cycle(HINGE);
     }
 
-    public long getRenderingSeed(BlockState state, BlockPos pos) {
-        return MathHelper.hashCode(pos.getX(), pos.down(state.get(HALF) == BlockHalf.BOTTOM ? 0 : 1).getY(), pos.getZ());
-    }
+
 
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(new Property[]{HALF, FACING, OPEN, HINGE, POWERED});
+        builder.add(new Property[]{FACING, OPEN, HINGE, POWERED});
     }
 
     public static boolean canOpenByHand(World world, BlockPos pos) {
@@ -233,7 +205,6 @@ public class WcShutter extends Block {
         OPEN = Properties.OPEN;
         HINGE = Properties.DOOR_HINGE;
         POWERED = Properties.POWERED;
-        HALF = Properties.BLOCK_HALF;
         NORTH_SHAPE = Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 16.0, 3.0);
         SOUTH_SHAPE = Block.createCuboidShape(0.0, 0.0, 13.0, 16.0, 16.0, 16.0);
         EAST_SHAPE = Block.createCuboidShape(13.0, 0.0, 0.0, 16.0, 16.0, 16.0);
