@@ -243,6 +243,13 @@ public class WcItemGroupTerrainSet {
                 entries.add(TerrainSet.TERRAINSET_OCEAN_ROCKS_SLAB);
                 entries.add(TerrainSet.TERRAINSET_OCEAN_ROCKS_STAIRS);
                 entries.add(TerrainSet.TERRAINSET_OCEAN_ROCKS_WALL);
+                entries.add(TerrainSet.FLOWSTONE);
+                entries.add(TerrainSet.FLOWSTONE_STAIRS);
+                entries.add(TerrainSet.FLOWSTONE_SLAB);
+                entries.add(TerrainSet.FLOWSTONE_FENCE);
+                entries.add(TerrainSet.FLOWSTONE_WALL);
+                entries.add(TerrainSet.FLOWSTONE_HOPPER);
+                entries.add(TerrainSet.FLOWSTONE_TIP);
             }).build();
 
     public static void registerItemGroups() {

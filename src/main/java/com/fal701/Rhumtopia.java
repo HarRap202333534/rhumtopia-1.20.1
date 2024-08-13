@@ -34,6 +34,8 @@ import com.fal701.block.MediumAshlar.MediumAshlar;
 import com.fal701.block.MediumAshlar.WcItemGroupMediumAshlar;
 import com.fal701.block.Metal.Metal;
 import com.fal701.block.Metal.WcItemGroupMetal;
+import com.fal701.block.Miscellaneous.Miscellaneous;
+import com.fal701.block.Miscellaneous.WcItemGroupMiscellaneous;
 import com.fal701.block.PannellingCarving.PannellingCarving;
 import com.fal701.block.PannellingCarving.WcItemGroupPannellingCarving;
 import com.fal701.block.QuarterAshlar.QuarterAshlar;
@@ -48,6 +50,8 @@ import com.fal701.block.TerrainSet.TerrainSet;
 import com.fal701.block.TerrainSet.WcItemGroupTerrainSet;
 import com.fal701.block.TimberFrame.TimberFrame;
 import com.fal701.block.TimberFrame.WcItemGroupTimberFrame;
+import com.fal701.block.WaterAir.WaterAir;
+import com.fal701.block.WaterAir.WcItemGroupWaterAir;
 import com.fal701.block.WindowsGlass.WcItemGroupWindowsGlass;
 import com.fal701.block.WindowsGlass.WindowsGlass;
 import com.fal701.block.WoodPlanks.WcItemGroupWoodPlanks;
@@ -92,6 +96,8 @@ public class Rhumtopia implements ModInitializer {
 		Foliage.registerModBlocks();
 		GrassesShrubs.registerModBlocks();
 		Flowers.registerModBlocks();
+		WaterAir.registerModBlocks();
+		Miscellaneous.registerModBlocks();
 
 		WcItemGroupCobblestone.registerItemGroups();
 		WcItemGroupFieldstone.registerItemGroups();
@@ -119,6 +125,8 @@ public class Rhumtopia implements ModInitializer {
 		WcItemGroupFoliage.registerItemGroups();
 		WcItemGroupGrassesShrubs.registerItemGroups();
 		WcItemGroupFlowers.registerItemGroups();
+		WcItemGroupWaterAir.registerItemGroups();
+		WcItemGroupMiscellaneous.registerItemGroups();
 
 		WcBlockEntities.registerBlockEntities();
 	}

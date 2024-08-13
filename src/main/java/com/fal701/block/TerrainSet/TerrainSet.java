@@ -269,7 +269,13 @@ public class TerrainSet {
     public static final Block COPPER_ORE_STAIRS = registerBlock("copper_ore_stairs", new WcStairs(TerrainSet.COPPER_ORE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));
     public static final Block COPPER_ORE_SLAB = registerBlock("copper_ore_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));
     public static final Block COPPER_ORE_WALL = registerBlock("copper_ore_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));
-
+    public static final Block FLOWSTONE = registerBlock("flowstone", new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block FLOWSTONE_STAIRS = registerBlock("flowstone_stairs", new WcStairs(TerrainSet.FLOWSTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block FLOWSTONE_SLAB = registerBlock("flowstone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block FLOWSTONE_FENCE = registerBlock("flowstone_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block FLOWSTONE_WALL = registerBlock("flowstone_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block FLOWSTONE_HOPPER = registerBlock("flowstone_hopper", new WcHopper(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block FLOWSTONE_TIP = registerBlock("flowstone_tip", new WcHopperU(FabricBlockSettings.copyOf(Blocks.STONE)));
 
 
     private static Block registerBlock(String name, Block block) {

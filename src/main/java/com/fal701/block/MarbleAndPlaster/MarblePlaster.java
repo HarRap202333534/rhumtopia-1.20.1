@@ -14,9 +14,9 @@ import net.minecraft.util.Identifier;
 
 public class MarblePlaster {
 
-    public static final Block MARBLE_PILLAR_VERTICAL_CTM = registerBlock("marble_pillar_vertical_ctm", new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK).requiresTool()));
+    public static final Block MARBLE_PILLAR_VERTICAL_CTM = registerBlock("marble_pillar_vertical_ctm", new PillarBlock(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK).requiresTool()));
     public static final Block MARBLE_WALL = registerBlock("marble_wall", new WcWall(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK).requiresTool()));
-    public static final Block MARBLE_PILLAR = registerBlock("marble_pillar", new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK).requiresTool()));
+    public static final Block MARBLE_PILLAR = registerBlock("marble_pillar", new PillarBlock(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK).requiresTool()));
     public static final Block THIN_MARBLE_COLUMN = registerBlock("thin_marble_column", new WcWall(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK).requiresTool()));
     public static final Block MARBLE_COLUMN_FENCE = registerBlock("marble_column_fence", new WcFence(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK).requiresTool()));
 

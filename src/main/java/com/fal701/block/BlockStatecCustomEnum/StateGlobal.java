@@ -31,7 +31,14 @@ public enum  StateGlobal implements StringIdentifiable {
     UNLIT("unlit"),
     CLOTHES1("clothes1"),
     CLOTHES2("clothes2"),
-    CLOTHES3("clothes3");
+    CLOTHES3("clothes3"),
+    SMOKE1("smoke1"),
+    SMOKE2("smoke2"),
+    SMOKE3("smoke3"),
+    SMOKE4("smoke4"),
+    SMOKE5("smoke5"),
+    SMOKE6("smoke6"),
+    SMOKE7("smoke7");
 
 
     private final String name;
