@@ -1,0 +1,8 @@
+{
+  "parent": "westerosblocks:block/untinted/wall_side_tall",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/iron_alt/iron_alt/4",
+    "top": "westerosblocks:block/terrainset/iron_alt/iron_alt/4",
+    "side": "westerosblocks:block/terrainset/iron_alt/iron_alt/4"
+  }
+}

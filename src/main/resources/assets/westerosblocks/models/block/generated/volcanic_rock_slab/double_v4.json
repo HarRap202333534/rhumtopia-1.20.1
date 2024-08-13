@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "westerosblocks:block/terrainset_volcanic/4",
+    "up": "westerosblocks:block/terrainset_volcanic/4",
+    "north": "westerosblocks:block/terrainset_volcanic/4",
+    "south": "westerosblocks:block/terrainset_volcanic/4",
+    "west": "westerosblocks:block/terrainset_volcanic/4",
+    "east": "westerosblocks:block/terrainset_volcanic/4",
+    "particle": "westerosblocks:block/terrainset_volcanic/4"
+  }
+}

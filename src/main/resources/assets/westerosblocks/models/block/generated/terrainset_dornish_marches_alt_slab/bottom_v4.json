@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/half_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/dornish_marches_alt/dornish_marches_alt/4",
+    "up": "westerosblocks:block/terrainset/dornish_marches_alt/dornish_marches_alt/4",
+    "north": "westerosblocks:block/terrainset/dornish_marches_alt/dornish_marches_alt/4",
+    "south":  "westerosblocks:block/terrainset/dornish_marches_alt/dornish_marches_alt/4",
+    "west": "westerosblocks:block/terrainset/dornish_marches_alt/dornish_marches_alt/4",
+    "east": "westerosblocks:block/terrainset/dornish_marches_alt/dornish_marches_alt/4",
+    "particle": "westerosblocks:block/terrainset/dornish_marches_alt/dornish_marches_alt/4"
+  }
+}

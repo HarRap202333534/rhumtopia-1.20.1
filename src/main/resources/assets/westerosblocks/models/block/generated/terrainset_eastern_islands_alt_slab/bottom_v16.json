@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/half_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/east_alt/east_alt/16",
+    "up": "westerosblocks:block/terrainset/east_alt/east_alt/16",
+    "north": "westerosblocks:block/terrainset/east_alt/east_alt/16",
+    "south":  "westerosblocks:block/terrainset/east_alt/east_alt/16",
+    "west": "westerosblocks:block/terrainset/east_alt/east_alt/16",
+    "east": "westerosblocks:block/terrainset/east_alt/east_alt/16",
+    "particle": "westerosblocks:block/terrainset/east_alt/east_alt/16"
+  }
+}

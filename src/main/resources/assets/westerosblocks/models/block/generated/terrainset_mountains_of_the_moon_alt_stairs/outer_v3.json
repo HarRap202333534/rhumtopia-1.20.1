@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/vale_alt/vale_alt/3",
+    "top": "westerosblocks:block/terrainset/vale_alt/vale_alt/3",
+    "side": "westerosblocks:block/terrainset/vale_alt/vale_alt/3",
+    "particle": "westerosblocks:block/terrainset/vale_alt/vale_alt/3"
+  }
+}

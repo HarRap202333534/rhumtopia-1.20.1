@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/brown_granite/brown_granite/12",
+    "up": "westerosblocks:block/terrainset/brown_granite/brown_granite/12",
+    "north": "westerosblocks:block/terrainset/brown_granite/brown_granite/12",
+    "south":  "westerosblocks:block/terrainset/brown_granite/brown_granite/12",
+    "west": "westerosblocks:block/terrainset/brown_granite/brown_granite/12",
+    "east": "westerosblocks:block/terrainset/brown_granite/brown_granite/12",
+    "particle": "westerosblocks:block/terrainset/brown_granite/brown_granite/12"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/dornish_marches/dornish_marches/8",
+    "top": "westerosblocks:block/terrainset/dornish_marches/dornish_marches/8",
+    "side": "westerosblocks:block/terrainset/dornish_marches/dornish_marches/8",
+    "particle": "westerosblocks:block/terrainset/dornish_marches/dornish_marches/8"
+  }
+}

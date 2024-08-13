@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/upper_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset_river/9",
+    "up": "westerosblocks:block/terrainset_river/9",
+    "north": "westerosblocks:block/terrainset_river/9",
+    "south": "westerosblocks:block/terrainset_river/9",
+    "west": "westerosblocks:block/terrainset_river/9",
+    "east": "westerosblocks:block/terrainset_river/9",
+    "particle": "westerosblocks:block/terrainset_river/9"
+  }
+}

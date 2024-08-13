@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/vale_alt/vale_alt/13",
+    "top": "westerosblocks:block/terrainset/vale_alt/vale_alt/13",
+    "side": "westerosblocks:block/terrainset/vale_alt/vale_alt/13",
+    "particle": "westerosblocks:block/terrainset/vale_alt/vale_alt/13"
+  }
+}

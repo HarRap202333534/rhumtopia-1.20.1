@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/north_alt/north_alt/15",
+    "top": "westerosblocks:block/terrainset/north_alt/north_alt/15",
+    "side": "westerosblocks:block/terrainset/north_alt/north_alt/15",
+    "particle": "westerosblocks:block/terrainset/north_alt/north_alt/15"
+  }
+}

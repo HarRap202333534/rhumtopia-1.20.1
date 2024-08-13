@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class WcItemGroupMarblePlaster {
     public static final ItemGroup MARBLE_PLASTER = FabricItemGroup.builder()
             .icon(() -> new ItemStack(MarblePlaster.MARBLE_PILLAR))
-            .displayName(Text.translatable("itemGroup.westerosblocks.marble_paster"))
+            .displayName(Text.translatable("itemGroup.WesterosMarblePlaster"))
             .entries((context, entries) -> {
                 entries.add(MarblePlaster.MARBLE_PILLAR_VERTICAL_CTM);
                 entries.add(MarblePlaster.MARBLE_WALL);
@@ -546,6 +546,27 @@ public class WcItemGroupMarblePlaster {
                 entries.add(MarblePlaster.PALE_PINK_PLASTER_ROUGH_FENCE);
                 entries.add(MarblePlaster.PALE_PINK_PLASTER_ROUGH_HOPPER);
                 entries.add(MarblePlaster.PALE_PINK_PLASTER_ROUGH_TIP);//44.2
+                entries.add(MarblePlaster.WHITE_STAINED_CLAY);
+                entries.add(MarblePlaster.WHITE_STAINED_CLAY_STAIRS);
+                entries.add(MarblePlaster.WHITE_STAINED_CLAY_SLAB);
+                entries.add(MarblePlaster.WHITE_STAINED_CLAY_WALL);
+                entries.add(MarblePlaster.WHITE_STAINED_CLAY_FENCE);
+                entries.add(MarblePlaster.WHITE_STAINED_CLAY_HOPPER);
+                entries.add(MarblePlaster.WHITE_STAINED_CLAY_TIP);
+                entries.add(MarblePlaster.GREY_PLASTER);
+                entries.add(MarblePlaster.GREY_PLASTER_STAIRS);
+                entries.add(MarblePlaster.GREY_PLASTER_SLAB);
+                entries.add(MarblePlaster.GREY_PLASTER_WALL);
+                entries.add(MarblePlaster.GREY_PLASTER_FENCE);
+                entries.add(MarblePlaster.GREY_PLASTER_HOPPER);
+                entries.add(MarblePlaster.GREY_PLASTER_TIP);
+                entries.add(MarblePlaster.GREY_PLASTER_ROUGH);
+                entries.add(MarblePlaster.GREY_PLASTER_ROUGH_STAIRS);
+                entries.add(MarblePlaster.GREY_PLASTER_ROUGH_SLAB);
+                entries.add(MarblePlaster.GREY_PLASTER_ROUGH_WALL);
+                entries.add(MarblePlaster.GREY_PLASTER_ROUGH_FENCE);
+                entries.add(MarblePlaster.GREY_PLASTER_ROUGH_HOPPER);
+                entries.add(MarblePlaster.GREY_PLASTER_ROUGH_TIP);
 
             }).build();
 

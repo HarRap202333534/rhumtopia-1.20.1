@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/9",
+    "up": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/9",
+    "north": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/9",
+    "south":  "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/9",
+    "west": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/9",
+    "east": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/9",
+    "particle": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/9"
+  }
+}

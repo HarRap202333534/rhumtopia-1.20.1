@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/dornish_marches/dornish_marches/5",
+    "up": "westerosblocks:block/terrainset/dornish_marches/dornish_marches/5",
+    "north": "westerosblocks:block/terrainset/dornish_marches/dornish_marches/5",
+    "south":  "westerosblocks:block/terrainset/dornish_marches/dornish_marches/5",
+    "west": "westerosblocks:block/terrainset/dornish_marches/dornish_marches/5",
+    "east": "westerosblocks:block/terrainset/dornish_marches/dornish_marches/5",
+    "particle": "westerosblocks:block/terrainset/dornish_marches/dornish_marches/5"
+  }
+}
