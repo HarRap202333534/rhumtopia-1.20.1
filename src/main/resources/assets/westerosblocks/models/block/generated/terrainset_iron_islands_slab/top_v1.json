@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/upper_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset_iron/1",
+    "up": "westerosblocks:block/terrainset_iron/1",
+    "north": "westerosblocks:block/terrainset_iron/1",
+    "south": "westerosblocks:block/terrainset_iron/1",
+    "west": "westerosblocks:block/terrainset_iron/1",
+    "east": "westerosblocks:block/terrainset_iron/1",
+    "particle": "westerosblocks:block/terrainset_iron/1"
+  }
+}

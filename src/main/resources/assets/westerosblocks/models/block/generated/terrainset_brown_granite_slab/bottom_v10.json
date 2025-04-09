@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/half_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/brown_granite/brown_granite/10",
+    "up": "westerosblocks:block/terrainset/brown_granite/brown_granite/10",
+    "north": "westerosblocks:block/terrainset/brown_granite/brown_granite/10",
+    "south":  "westerosblocks:block/terrainset/brown_granite/brown_granite/10",
+    "west": "westerosblocks:block/terrainset/brown_granite/brown_granite/10",
+    "east": "westerosblocks:block/terrainset/brown_granite/brown_granite/10",
+    "particle": "westerosblocks:block/terrainset/brown_granite/brown_granite/10"
+  }
+}

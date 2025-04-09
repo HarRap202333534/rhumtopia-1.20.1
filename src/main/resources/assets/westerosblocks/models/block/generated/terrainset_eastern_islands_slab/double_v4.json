@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/tinted/cube",
+  "textures": {
+    "down": "westerosblocks:block/terrainset_east/4",
+    "up": "westerosblocks:block/terrainset_east/4",
+    "north": "westerosblocks:block/terrainset_east/4",
+    "south": "westerosblocks:block/terrainset_east/4",
+    "west": "westerosblocks:block/terrainset_east/4",
+    "east": "westerosblocks:block/terrainset_east/4",
+    "particle": "westerosblocks:block/terrainset_east/4"
+  }
+}

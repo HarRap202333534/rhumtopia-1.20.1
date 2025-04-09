@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/east_alt/east_alt/3",
+    "top": "westerosblocks:block/terrainset/east_alt/east_alt/3",
+    "side": "westerosblocks:block/terrainset/east_alt/east_alt/3",
+    "particle": "westerosblocks:block/terrainset/east_alt/east_alt/3"
+  }
+}

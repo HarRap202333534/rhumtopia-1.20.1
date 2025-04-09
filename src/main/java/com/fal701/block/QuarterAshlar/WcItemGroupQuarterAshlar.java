@@ -14,7 +14,7 @@ public class WcItemGroupQuarterAshlar {
 
     public static final ItemGroup QUARTER_ASHLAR = FabricItemGroup.builder()
             .icon(() -> new ItemStack(QuarterAshlar.SMALL_STONE_BRICK))
-            .displayName(Text.translatable("itemGroup.westerosblocks.quarter_ashlar"))
+            .displayName(Text.translatable("itemGroup.WesterosQuarterAshlar"))
             .entries((context, entries) -> {
                 entries.add(QuarterAshlar.BASALT_BRICK);
                 entries.add(QuarterAshlar.BASALT_BRICK_STAIRS);

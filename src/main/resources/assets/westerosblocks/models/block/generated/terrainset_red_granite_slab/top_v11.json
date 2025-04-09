@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/upper_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/red_granite/red_granite/11",
+    "up": "westerosblocks:block/terrainset/red_granite/red_granite/11",
+    "north": "westerosblocks:block/terrainset/red_granite/red_granite/11",
+    "south":  "westerosblocks:block/terrainset/red_granite/red_granite/11",
+    "west": "westerosblocks:block/terrainset/red_granite/red_granite/11",
+    "east": "westerosblocks:block/terrainset/red_granite/red_granite/11",
+    "particle": "westerosblocks:block/terrainset/red_granite/red_granite/11"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "westerosblocks:block/untinted/wall_side_tall",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/1",
+    "top": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/1",
+    "side": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/1"
+  }
+}

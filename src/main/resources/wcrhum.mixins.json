@@ -3,7 +3,7 @@
 	"package": "com.fal701.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"LivingEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

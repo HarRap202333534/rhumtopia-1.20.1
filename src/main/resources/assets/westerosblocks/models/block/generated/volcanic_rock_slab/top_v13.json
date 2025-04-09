@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/upper_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset_volcanic/13",
+    "up": "westerosblocks:block/terrainset_volcanic/13",
+    "north": "westerosblocks:block/terrainset_volcanic/13",
+    "south": "westerosblocks:block/terrainset_volcanic/13",
+    "west": "westerosblocks:block/terrainset_volcanic/13",
+    "east": "westerosblocks:block/terrainset_volcanic/13",
+    "particle": "westerosblocks:block/terrainset_volcanic/13"
+  }
+}

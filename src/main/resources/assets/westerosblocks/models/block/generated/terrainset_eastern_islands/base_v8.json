@@ -1,0 +1,18 @@
+{
+  "parent": "westerosblocks:block/tinted/cube_overlay",
+  "textures": {
+    "down_ov": "westerosblocks:block/terrainset_overlays/terrainset_east_overlay",
+    "up_ov": "westerosblocks:block/terrainset_overlays/terrainset_east_overlay",
+    "north_ov": "westerosblocks:block/terrainset_overlays/terrainset_east_overlay",
+    "south_ov": "westerosblocks:block/terrainset_overlays/terrainset_east_overlay",
+    "west_ov": "westerosblocks:block/terrainset_overlays/terrainset_east_overlay",
+    "east_ov": "westerosblocks:block/terrainset_overlays/terrainset_east_overlay",
+    "down": "westerosblocks:block/terrainset/east/old/8",
+    "up": "westerosblocks:block/terrainset/east/old/8",
+    "north": "westerosblocks:block/terrainset/east/old/8",
+    "south": "westerosblocks:block/terrainset/east/old/8",
+    "west": "westerosblocks:block/terrainset/east/old/8",
+    "east": "westerosblocks:block/terrainset/east/old/8",
+    "particle": "westerosblocks:block/terrainset/east/old/8"
+  }
+}

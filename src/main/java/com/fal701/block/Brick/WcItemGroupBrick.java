@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class WcItemGroupBrick {
     public static final ItemGroup BRICK = FabricItemGroup.builder()
             .icon(() -> new ItemStack(Brick.SMALL_ORANGE_BRICKS))
-            .displayName(Text.translatable("itemGroup.westerosblocks.brick"))
+            .displayName(Text.translatable("itemGroup.WesterosBrick"))
             .entries((context, entries) -> {
                 entries.add(Brick.ORANGE_BRICK_ROWLOCK);
                 entries.add(Brick.ORANGE_BRICK_DENTIL);

@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/half_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/12",
+    "up": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/12",
+    "north": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/12",
+    "south":  "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/12",
+    "west": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/12",
+    "east": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/12",
+    "particle": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/12"
+  }
+}

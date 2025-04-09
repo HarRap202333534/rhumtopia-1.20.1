@@ -13,7 +13,7 @@ public class WcItemGroupFieldstone {
 
     public static final ItemGroup FIELDSTONE = FabricItemGroup.builder()
             .icon(() -> new ItemStack(Fieldstone.WHITE_LIGHT_BRICK))
-            .displayName(Text.translatable("itemGroup.westerosblocks.fieldstone"))
+            .displayName(Text.translatable("itemGroup.WesterosFieldstone"))
             .entries((context, entries) -> {
                 entries.add(Fieldstone.FAINT_BROWN_GREY_BRICK);
                 entries.add(Fieldstone.FAINT_BROWN_GREY_BRICK_STAIRS);

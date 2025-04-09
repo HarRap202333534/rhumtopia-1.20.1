@@ -14,7 +14,7 @@ public class WcItemGroupHalfAshlar {
 
     public static final ItemGroup HALF_ASHLAR = FabricItemGroup.builder()
             .icon(() -> new ItemStack(HalfAshlar.DARK_GREY_LARGE_BRICK))
-            .displayName(Text.translatable("itemGroup.westerosblocks.half_ashlar"))
+            .displayName(Text.translatable("itemGroup.WesterosHalfAshlar"))
             .entries((context, entries) -> {
                 entries.add(HalfAshlar.SIDED_STONE_SLAB);
                 entries.add(HalfAshlar.NETHER_BRICK);

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/iron_alt/iron_alt/4",
+    "up": "westerosblocks:block/terrainset/iron_alt/iron_alt/4",
+    "north": "westerosblocks:block/terrainset/iron_alt/iron_alt/4",
+    "south":  "westerosblocks:block/terrainset/iron_alt/iron_alt/4",
+    "west": "westerosblocks:block/terrainset/iron_alt/iron_alt/4",
+    "east": "westerosblocks:block/terrainset/iron_alt/iron_alt/4",
+    "particle": "westerosblocks:block/terrainset/iron_alt/iron_alt/4"
+  }
+}

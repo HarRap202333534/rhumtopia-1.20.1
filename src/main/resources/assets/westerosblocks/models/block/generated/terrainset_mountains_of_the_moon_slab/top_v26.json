@@ -1,0 +1,12 @@
+{
+  "parent": "westerosblocks:block/untinted/upper_slab",
+  "textures": {
+    "down": "westerosblocks:block/terrainset_eyrie/30",
+    "up": "westerosblocks:block/terrainset_eyrie/30",
+    "north": "westerosblocks:block/terrainset_eyrie/30",
+    "south": "westerosblocks:block/terrainset_eyrie/30",
+    "west": "westerosblocks:block/terrainset_eyrie/30",
+    "east": "westerosblocks:block/terrainset_eyrie/30",
+    "particle": "westerosblocks:block/terrainset_eyrie/30"
+  }
+}

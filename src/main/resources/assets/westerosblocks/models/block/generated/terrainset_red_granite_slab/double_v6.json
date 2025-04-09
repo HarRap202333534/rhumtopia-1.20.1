@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "westerosblocks:block/terrainset/red_granite/red_granite/6",
+    "up": "westerosblocks:block/terrainset/red_granite/red_granite/6",
+    "north": "westerosblocks:block/terrainset/red_granite/red_granite/6",
+    "south":  "westerosblocks:block/terrainset/red_granite/red_granite/6",
+    "west": "westerosblocks:block/terrainset/red_granite/red_granite/6",
+    "east": "westerosblocks:block/terrainset/red_granite/red_granite/6",
+    "particle": "westerosblocks:block/terrainset/red_granite/red_granite/6"
+  }
+}

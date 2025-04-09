@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/red_granite/red_granite/15",
+    "top": "westerosblocks:block/terrainset/red_granite/red_granite/15",
+    "side": "westerosblocks:block/terrainset/red_granite/red_granite/15",
+    "particle": "westerosblocks:block/terrainset/red_granite/red_granite/15"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/4",
+    "top": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/4",
+    "side": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/4",
+    "particle": "westerosblocks:block/terrainset/dark_westerlands/dark_westerlands/4"
+  }
+}
